@@ -11,10 +11,9 @@
       <h1>Deponika :)</h1>
       <h2>IKA Hordaland sitt hylleplasseringssystem</h2>
       <p>
-        Dette er første utgave. I første omgang kan du søke etter skole, PPT og
-        barnevern.
+        Her kan du søke etter skole, PPT og barnevern. Klikk på ASTA-id og få en
+        overraskelse
       </p>
-      <p>Søk på tvers av alle felter</p>
       <input type="text" id="search" placeholder="Skriv noe her.." />
       <table id="myTable">
         <thead>
@@ -28,33 +27,55 @@
         </thead>
         <tbody></tbody>
       </table>
-      <script>
-        document.querySelector("#search").addEventListener("input", (event) => {
-          const searchQuery = event.target.value.toLowerCase();
-          fetch("data.csv")
-            .then((response) => response.text())
-            .then((data) => {
-              const rows = data.split("\n");
-              const tbody = document.querySelector("#myTable tbody");
-              tbody.innerHTML = ""; // Clear the table
-              for (const row of rows) {
-                const cells = row.split(",");
-                // Check if any of the cells contain the search query (case-insensitive)
-                if (
-                  cells.some((cell) => cell.toLowerCase().includes(searchQuery))
-                ) {
-                  const tr = document.createElement("tr");
-                  for (const cell of cells) {
-                    const td = document.createElement("td");
-                    td.textContent = cell;
-                    tr.appendChild(td);
-                  }
-                  tbody.appendChild(tr);
-                }
+    </header>
+
+    <script>
+      const searchInput = document.querySelector("#search");
+      const tableBody = document.querySelector("#myTable tbody");
+
+      searchInput.addEventListener("input", (event) => {
+        const searchQuery = event.target.value.toLowerCase();
+
+        fetch("data.csv")
+          .then((response) => response.text())
+          .then((data) => {
+            const rows = data.split("\n");
+
+            tableBody.innerHTML = ""; // Clear the table
+
+            rows.forEach((row) => {
+              const cells = row.split(",");
+              // Check if any of the cells contain the search query (case-insensitive)
+              if (
+                cells.some((cell) => cell.toLowerCase().includes(searchQuery))
+              ) {
+                const rowEl = document.createElement("tr");
+
+                cells.forEach((cell) => {
+                  const cellEl = document.createElement("td");
+                  cellEl.textContent = cell;
+                  rowEl.appendChild(cellEl);
+                });
+                tableBody.appendChild(rowEl);
               }
             });
+          });
+      });
+      window.onload = function () {
+        const dataRows = document.querySelectorAll("#myTable tr");
+        dataRows.forEach((row) => {
+          const firstCell = row.querySelector("td:first-child");
+          tableBody.addEventListener("click", (event) => {
+            if (event.target.tagName === "TD") {
+              const cellData = event.target.innerHTML;
+              // perform search on another site using the cell data
+              window.open(
+                `https://www.arkivportalen.no/search/1?unitType=1000&repository=IKAH&text=${cellData}`
+              );
+            }
+          });
         });
-      </script>
-    </header>
+      };
+    </script>
   </body>
 </html>
