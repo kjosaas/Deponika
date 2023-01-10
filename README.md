@@ -3,7 +3,7 @@ Deponika is a web application that allows users to search for and view informati
 
 The user can search for specific items by typing a query into the search box. The table will be updated in real-time as the user types, showing only rows that contain the search query in any of the columns.
 
-When the user clicks on an ASTA-id in the first column of the table, the application opens a new browser window that performs a search on [Arkivportalen.no](arkivportalen.no) using the data in that cell.
+When the user clicks on an ASTA-id in the first column of the table, the application opens a new browser window that performs a search on [Arkivportalen.no](http://www.arkivportalen.no) using the data in that cell.
 
 ## Getting Started
 To use this application, you will need to have a web server running to serve the HTML, JavaScript, and CSS files, and also have access to the data.csv file with the data you want to display in the table.
