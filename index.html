@@ -8,13 +8,19 @@
   </head>
   <body>
     <header>
-      <h1>Deponika :)</h1>
-      <h2>IKA Hordaland sitt hylleplasseringssystem</h2>
-      <p>
-        Her kan du søke etter skole, PPT og barnevern. Klikk på ASTA-id og få en
-        overraskelse
-      </p>
+      <h1>Deponika 🤔</h1>
       <input type="text" id="search" placeholder="Skriv noe her.." />
+      <p>
+        Deponika er ein nettapplikasjon som gjer det mogleg for deg å søke etter
+        plassering av arkiv hjå IKA Hordaland. Du kan søke ved å skrive i
+        søkeboksen. Tabellen vert oppdatert samstundes som du skriv.
+      </p>
+      <p>
+        Når du klikkar på ei ASTA-ID i første kolonnen, opnar nettsida eit nytt
+        nettleservindauge som gjer eit søk på arkivportalen.no etter IDen i
+        denne cella.
+      </p>
+
       <table id="myTable">
         <thead>
           <tr>
@@ -67,11 +73,13 @@
           const firstCell = row.querySelector("td:first-child");
           tableBody.addEventListener("click", (event) => {
             if (event.target.tagName === "TD") {
-              const cellData = event.target.innerHTML;
-              // perform search on another site using the cell data
-              window.open(
-                `https://www.arkivportalen.no/search/1?unitType=1000&repository=IKAH&text=${cellData}`
-              );
+              if (event.target.cellIndex === 0) {
+                // assuming ASTA-id is in the first column
+                const cellData = event.target.innerHTML;
+                window.open(
+                  `https://www.arkivportalen.no/search/1?unitType=1000&repository=IKAH&text=${cellData}`
+                );
+              }
             }
           });
         });

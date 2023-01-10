@@ -1,6 +1,6 @@
 table {
   border-collapse: collapse;
-  width: 100%;
+  width: 90%;
   border: 1px solid grey;
 }
 
@@ -53,6 +53,7 @@ h1 {
   font-weight: 300;
   line-height: 112px;
   letter-spacing: -1.5px;
+
 }
 
 input, p {
@@ -63,6 +64,9 @@ input, p {
   letter-spacing: 0.17px;
   width: 100%;
   background-color: #f5f5f5;
+}
+p{
+  width: 60%;
 }
 
 h2 {
