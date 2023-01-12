@@ -8,6 +8,7 @@
   </head>
   <body>
     <header>
+      <button id="english-button">English</button>
       <h1>Deponika 🤔</h1>
       <input type="text" id="search" placeholder="Skriv noe her.." />
       <p>
@@ -16,23 +17,27 @@
         søkeboksen. Tabellen vert oppdatert samstundes som du skriv.
       </p>
       <p>
-        Når du klikkar på ei ASTA-ID i første kolonnen, opnar nettsida eit nytt
-        nettleservindauge som gjer eit søk på arkivportalen.no etter IDen i
-        denne cella.
+        Når du klikkar på ei ASTA-ID, opnar nettsida eit nytt nettleservindauge
+        på arkivportalen.no.
       </p>
-
-      <table id="myTable">
-        <thead>
-          <tr>
-            <th>ASTA-id</th>
-            <th>Arkivskaper</th>
-            <th>Serie</th>
-            <th>Plassering frå</th>
-            <th>Plassering til</th>
-          </tr>
-        </thead>
-        <tbody></tbody>
-      </table>
+      <p>
+        Funnet ein feil, ynskjer å legge til ei opplysing eller eit arkiv? 👉
+        <button id="email-button">Gje lyd frå deg!</button>
+      </p>
+      <div>
+        <table id="myTable">
+          <thead>
+            <tr>
+              <th>ASTA-id</th>
+              <th>Arkivskaper</th>
+              <th>Serie</th>
+              <th>Plassering frå</th>
+              <th>Plassering til</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
     </header>
 
     <script>
@@ -84,6 +89,19 @@
           });
         });
       };
+      const emailButton = document.querySelector("#email-button");
+      emailButton.addEventListener("click", () => {
+        const subject = "Feedback for Deponika";
+        const body =
+          "Hei, jeg har funnet en feil eller har en opplysning jeg vil legge til i Deponika. Det gjelder ...";
+        const email =
+          "mailto:knut.kjosaas@ikah.no?subject=" + subject + "&body=" + body;
+        window.location.href = email;
+      });
+      const englishButton = document.querySelector("#english-button");
+      englishButton.addEventListener("click", () => {
+        alert("Nei!! \n\nSida får du sjølvsagt berre på nynorsk !! \n\n  ");
+      });
     </script>
   </body>
 </html>
