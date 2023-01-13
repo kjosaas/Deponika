@@ -1,4 +1,4 @@
-1211-231.01,Etne kommune. Enge skule,ha,Q8-29-1-6,Q8-29-1-7
+1211-231.01,Etne kommune. Enge skule,Ha,Q8-29-1-6,Q8-29-1-7
 1211-231.01,Etne kommune. Enge skule,Hb,Q8-29-1-7,Q8-29-1-7
 1211-231.02,Etne kommune. Skånevik skule,Ha,Q8-29-1-7,Q8-29-1-7
 1211-231.02,Etne kommune. Skånevik skule,Hb,Q8-29-1-7,Q8-29-1-8
@@ -82,6 +82,11 @@
 1219-242.01,Bømlo kommune. Maurtua barnehage,Fa,Q7-49-5-6,Q7-49-5-6
 1219-242.01,Bømlo kommune. Maurtua barnehage,Fb,Q7-49-6-2,Q7-49-6-2
 1219-242.01,Bømlo kommune. Maurtua barnehage,Fc,Q7-52-2-3,Q7-52-2-3
+1219-302,Bømlo kommune. Sosiale tenester (NAV),Fa,SAB-194,
+1219-302,Bømlo kommune. Sosiale tenester (NAV),Fb,SAB-194,
+1219-302,Bømlo kommune. Sosiale tenester (NAV),Fc,SAB-194,
+1219-302,Bømlo kommune. Sosiale tenester (NAV),Fd,SAB-194,
+1219-302,Bømlo kommune. Sosiale tenester (NAV),Fe,SAB-194,
 1219-315.1,Bømlo kommune. Barnevernet,Fa,Q7-50-3-2,Q7-50-3-2
 1219-315.1,Bømlo kommune. Barnevernet,Fb,Q7-50-3-2,Q7-50-3-5
 1221-201,Stord kommune. Skulekontoret,Ha,W10-26-1-5,W10-26-1-5
@@ -427,6 +432,9 @@
 1234-201,Granvin herad. Skulekontoret,Hc,IKKJE FUNNET,
 1234-231.2,Granvin herad. Granvin barne- og ungdomsskule,Ha,IKKJE FUNNET,
 1234-242.1,Granvin herad. Granvin barnehage,Fa,IKKJE FUNNET,
+1235-021.1,Voss kommune. Dokumentsenteret,Dab,SAB-144,
+1235-021.1,Voss kommune. Dokumentsenteret,Dab,SAB-194,
+1235-021.1,Voss kommune. Dokumentsenteret,Daa,SAB-144,
 1235-231.01,Voss kommune. Voss ungdomsskule,Ha,Sjå originalskjema,
 1235-231.02,Voss kommune. Evanger barne og ungdomsskule,Ha,Sjå originalskjema,
 1235-231.03,Voss kommune. Sundve skule,Hab,Sjå originalskjema,
@@ -497,11 +505,21 @@
 1238-242.08,Kvam herad. Øystese barnehage,Fb,Q8-6-3-4,Q8-6-3-4
 1238-242.09,Kvam herad. Ålvik barnehage,Fa,Q8-6-2-6,Q8-6-2-7
 1238-242.10,Kvam herad. Barnehagane i Kvam herad,Fa,Q8-6-3-3,Q8-6-3-4
+1238-271,Kvam herad. Kulturkontoret,Ua,SAB-135,
 1238-315.01,Kvam herad. Barnevernet,Fa,IKKJE FUNNET,
 1238-315.01,Kvam herad. Barnevernet,Fb,IKKJE FUNNET,
 1238-315.01,Kvam herad. Barnevernet,Fc,Q8-5-3-4,Q8-5-3-5
 1238-315.01,Kvam herad. Barnevernet,Fd,Q8-6-3-7,Q8-7-1-1
 1238-315.02,Kvam herad. Kvam- Voss familiesenter,Fa,Q8-7-1-1,Q8-7-1-1
+1238-505,Kvam herad. Byggesaksavdelinga,Fa,SAB-131,SAB-134
+1238-506,Kvam herad. Oppmålingsavdelinga,Ga,SAB-135,
+1238-506,Kvam herad. Oppmålingsavdelinga,Ha,SAB-134,SAB-135
+1238-601,Kvam herad. Landbrukskontoret,Fa,,SAB-135,
+1241-021.1,Fusa kommune. Sentralarkivet,Da,SAB-140,SAB-141
+1241-021.1,Fusa kommune. Sentralarkivet,Db,SAB-141,
+1241-021.1,Fusa kommune. Sentralarkivet,Dc,SAB-141,
+1241-021.1,Fusa kommune. Sentralarkivet,Dd,SAB-141,
+1241-021.1,Fusa kommune. Sentralarkivet,De,SAB-141,SAB-142
 1241-201,Fusa kommune. Skulekontoret,Ha,Q8-32-3-7,Q8-32-3-7
 1241-201,Fusa kommune. Skulekontoret,Hb,Q8-32-3-8,Q8-32-3-8
 1241-201,Fusa kommune. Skulekontoret,Hc,Q8-32-3-8,Q8-32-3-8
@@ -540,10 +558,16 @@
 1241-242.6,Fusa kommune. Holmefjord barnehage,Fa,Q8-33-1-3,Q8-33-1-3
 1241-242.6,Fusa kommune. Holmefjord barnehage,Fb,Q8-23-2-4,Q8-23-2-4
 1241-242.7,Fusa kommune. Søre-Fusa barnehage,Fa,Q8-23-2-4,Q8-23-2-4
+1241-302,Fusa kommune. NAV Fusa,Fa,SAB-142,
+1241-302,Fusa kommune. NAV Fusa,Fb,SAB-142,
+1241-302,Fusa kommune. NAV Fusa,Fc,SAB-142,
 1241-315.1,Fusa kommune. Barnevernet,Fa,IKKJE FUNNET,
 1241-315.1,Fusa kommune. Barnevernet,Fb,Q8-26-3-1,Q8-26-3-2
 1241-315.1,Fusa kommune. Barnevernet,Fc,Q8-26-3-2,Q8-26-3-2
 1241-315.1,Fusa kommune. Barnevernet,Fd,Q8-25-3-3,Q8-25-3-6
+1241-501,Fusa kommune. Teknisk etat ,Fa,SAB-143,
+1241-501,Fusa kommune. Teknisk etat ,Fb,SAB-143,
+1241-505,Fusa kommune. Byggesaksavdelinga,Fc,SAB-144,
 1242-201,Samnanger kommune. Skulekontoret,Ha,Q8-19-3-4,Q8-19-3-4
 1242-201,Samnanger kommune. Skulekontoret,Hb,Q8-19-3-4,Q8-19-3-4
 1242-201,Samnanger kommune. Skulekontoret,Hc,Q8-19-3-4,Q8-19-3-4
@@ -551,6 +575,8 @@
 1242-231.2,Samnanger kommune. Samnanger ungdomsskule,Hb,Q8-19-3-4,Q8-19-3-4
 1242-231.2,Samnanger kommune. Samnanger ungdomsskule,Hc,Q8-19-3-4,Q8-19-3-4
 1242-231.3,Samnanger kommune. Nordbygda skule,Ha,IKKJE FUNNET,
+1243-021.1,Os kommune. Sentralarkivet,Da,SAB-139,
+1243-021.1,Os kommune. Sentralarkivet,Db,SAB-139,SAB-140
 1243-201,Os kommune. Skulekontoret,Ha,Q7-74-2-6,Q7-74-2-6
 1243-201,Os kommune. Skulekontoret,Hb,Q7-74-3-1,Q7-74-3-1
 1243-201,Os kommune. Skulekontoret,Hc,Q7-74-3-1,Q7-74-3-3
@@ -563,7 +589,7 @@
 1243-231.03,Os kommune. Kuventræ barneskule,Hc,Q7-67-2-6,Q7-67-2-6
 1243-231.04,Os kommune. Lunde barneskule,Ha,Q7-67-3-1,Q7-67-3-2
 1243-231.05,Os kommune. Lysekloster barneskule,Ha,Q7-67-3-2,Q7-67-3-3
-1243-231.06,Os kommune. Nore Neset barneskule,Ha,IKKJE FUNNET,
+1243-231.06,Os kommune. Nore Neset barneskule,Ha,Q7-68-1-3,Q7-68-1-4
 1243-231.06,Os kommune. Nore Neset barneskule,Hb,Q7-67-3-3,Q7-68-1-4
 1243-231.07,Os kommune. Nore Neset ungdomsskule,Ha,IKKJE FUNNET,
 1243-231.07,Os kommune. Nore Neset ungdomsskule,Hb,Q7-72-2-5,Q7-72-2-6
@@ -589,6 +615,8 @@
 1243-242.04,Os kommune. Lysekloster barnehage,Fa,IKKJE FUNNET,
 1243-242.05,Os kommune. Søfteland barnehage,Fa,Q7-69-2-1,Q7-69-2-1
 1243-242.06,Os kommune. Halhjem barnetun,Fa,Q7-69-2-1,Q7-69-2-1
+1243-302,Os kommune. NAV,Fa,SAB-127,
+1243-302,Os kommune. NAV,Fb,SAB-127,
 1243-315,Os kommune. Barnevernet,Fa,Q7-75-2-6,Q7-75-3-5
 1243-315,Os kommune. Barnevernet,Fba,Q7-71-3-4,Q7-71-3-4
 1243-315,Os kommune. Barnevernet,Fbb,Q7-71-3-4,Q7-71-3-5
@@ -596,6 +624,7 @@
 1243-315,Os kommune. Barnevernet,Fc,Q7-69-2-1,Q7-69-2-4
 1243-315,Os kommune. Barnevernet,Fca,Q7-69-2-4,Q7-69-3-2
 1243-315,Os kommune. Barnevernet,Fcb,Q7-69-3-2,Q7-69-3-2
+1243-505,Os kommune. Byggesaksavdelinga,Fa,SAB-118,SAB-121
 1244-201,Austevoll kommune. Skulekontoret,Fa,Q8-19-1-5,Q8-19-1-5
 1244-201,Austevoll kommune. Skulekontoret,Fba,Q8-19-1-7,Q8-19-1-7
 1244-201,Austevoll kommune. Skulekontoret,Fbb,Q8-19-1-7,Q8-19-1-7
@@ -615,6 +644,11 @@
 1244-315.1,Austevoll kommune. Barnevernet,Fca,Wa-3-1,Wa-3-3
 1244-315.1,Austevoll kommune. Barnevernet,Fcb,Wa-3-3,Wa-3-4
 1244-315.1,Austevoll kommune. Barnevernet,Fcc,Wa-3-4,Wa-3-4
+1245-051,Sund kommune. Sentralarkivet ,Bd,SAB-201,SAB-202
+1245-051,Sund kommune. Sentralarkivet ,Db,SAB-136,SAB-137
+1245-051,Sund kommune. Sentralarkivet ,Dc,SAB-137,
+1245-051,Sund kommune. Sentralarkivet ,Dd,SAB-137,
+1245-051,Sund kommune. Sentralarkivet ,De,SAB-137,SAB-138
 1245-201,Sund kommune. Skulekontoret,Ha,W10-27-2-5,W10-27-2-5
 1245-201,Sund kommune. Skulekontoret,Hb,W10-27-2-5,W10-27-2-5
 1245-231.1,Sund kommune. Glesnes skule,Ha,W10-27-2-5,W10-27-2-5
@@ -650,6 +684,12 @@
 1245-315.2,Sund kommune. Barnevernstenesta,Fc,W10-27-1-3,W10-27-1-4
 1245-316,Sund kommune. Barnevernsnemnda,Fa,W10-27-1-4,W10-27-1-4
 1245-316,Sund kommune. Barnevernsnemnda,Fb,W10-27-1-4,W10-27-1-4
+1246-127,Fjell kommune. Kemnerkontoret,Ea,SAB-135,
+1246-127,Fjell kommune. Kemnerkontoret,Eb,SAB-135,
+1246-127,Fjell kommune. Kemnerkontoret,Ec,SAB-196,
+1246-127,Fjell kommune. Kemnerkontoret,Fa,SAB-135,
+1246-127,Fjell kommune. Kemnerkontoret,Fb,SAB-135,SAB-136
+1246-127,Fjell kommune. Kemnerkontoret,Fc,SAB-136,
 1246-201,Fjell kommune. Skulekontoret,Hab,W10-28-3-6,W10-28-3-6
 1246-201,Fjell kommune. Skulekontoret,Hac,W10-28-3-6,W10-28-3-6
 1246-201,Fjell kommune. Skulekontoret,Had,W10-28-3-6,W10-29-1-2
@@ -728,6 +768,11 @@
 1246-315.1,Fjell kommune. Barneverntenesta,Ff,Q8-1-2-3,Q8-1-8-2
 1246-315.1,Fjell kommune. Barneverntenesta,Fg,Q8-36-2-8,Q8-36-3-1
 1246-315.1,Fjell kommune. Barneverntenesta,Fh,Q8-36-3-1,Q8-36-3-1
+1246-501,Fjell kommune. Teknisk etat,Ec,SAB-202,
+1246-501,Fjell kommune. Teknisk etat,Ed,SAB-202,
+1246-501,Fjell kommune. Teknisk etat,Ee,SAB-202,
+1247-021.1,Askøy kommune. Dokumentsenteret,Ca,SAB-197,
+1247-021.1,Askøy kommune. Dokumentsenteret,Da,SAB-197,SAB-201
 1247-201,Askøy kommune. Skulekontoret,Fa,Q8-66-1-1,Q8-66-1-2
 1247-201,Askøy kommune. Skulekontoret,Fb,Q8-66-1-2,Q8-66-1-2
 1247-201,Askøy kommune. Skulekontoret,Fc,Q8-66-1-2,Q8-66-1-3
@@ -808,6 +853,7 @@
 1247-242.11,Askøy kommune. Bakarvågen barnehage,Fa,Q8-72-2-2,Q8-72-2-3
 1247-242.12,Askøy kommune. Læringsverkstedet Du og Jeg Nord,Fa,Q8-69-2-5,Q8-69-2-6
 1247-242.12,Askøy kommune. Læringsverkstedet Du og Jeg Nord,Fb,Q8-69-2-6,Q8-69-2-6
+1247-302,Askøy kommune. Askøy NAV,Fa,SAB-129,SAB-131
 1247-315,Askøy kommune. Barnevernet,Fa,Q8-75-1-5,Q8-75-1-6
 1247-315.1,Askøy kommune. Barnevernet,Fa,Q8-75-1-6,Q8-75-2-2
 1247-315.1,Askøy kommune. Barnevernet,Fb,Q8-75-2-2,Q8-75-2-4
@@ -818,6 +864,12 @@
 1247-315.1,Askøy kommune. Barnevernet,Fdd,Q8-80-3-6,Q8-81-1-6
 1247-315.1,Askøy kommune. Barnevernet,Fde,Q8-81-2-1,Q8-82-1-2
 1247-315.1,Askøy kommune. Barnevernet,Fe,Q8-82-3-2,Q8-82-3-3
+1247-501,Askøy kommune. Teknisk etat,Da,SAB-194,SAB-195
+1247-501,Askøy kommune. Teknisk etat,Db,SAB-195,
+1247-502,Askøy kommune. Byggesaksavdelinga,Fa,SAB-111,SAB-115
+1247-503,Askøy kommune. Serviceområde for teknikk og miljø,Da,SAB-196,
+1251b-021.1,Vaksdal kommune. Sentralarkivet,Da,SAB-140,
+1251b-022,Vaksdal kommune. Avtalearkivet,Fa,SAB-115,
 1251b-201,Vaksdal kommune. Skulekontoret ,Fa,Q8-86-1-3,Q8-86-1-3
 1251b-201,Vaksdal kommune. Skulekontoret,Fb,IKKJE FUNNET,
 1251b-201,Vaksdal kommune. Skulekontoret,Fc,Q7-2-10-4,Q7-2-10-4
@@ -850,6 +902,12 @@
 1251b-315.1,Vaksdal kommune. Barnevernet,Fb,IKKJE FUNNET,
 1251b-315.1,Vaksdal kommune. Barnevernet,Fc,Wa-2-6-3,Wa-2-6-5
 1251b-315.1,Vaksdal kommune. Barnevernet,Fd,Q8-48-1-5,Q8-48-1-6
+1251b-505,Vakdsal kommune. Byggesaksavdelinga,Fa,SAB-115,SAB-116
+1251b-506,Vakdsal kommune. Oppmålingsavdelinga,Fa,SAB-116,
+1251b-506,Vakdsal kommune. Oppmålingsavdelinga,Ga,SAB-116,
+1251b-601,Vaksdal kommune. Landbrukskontoret,Fa,SAB-116,
+1251b-601,Vaksdal kommune. Landbrukskontoret,Ga,SAB-116,
+1251b-601,Vaksdal kommune. Landbrukskontoret,Ha,SAB-116,
 1252-211.1,Modalen kommune. Skulekontoret,Ha,Q8-34-1-4,Q8-34-1-4
 1252-211.1,Modalen kommune. Skulekontoret,Hb,Q8-34-1-4,Q8-34-1-4
 1252-231.01,Modalen kommune. Mo barne- og ungdomsskule,Ha,Q8-34-1-4,Q8-34-1-4
@@ -862,6 +920,11 @@
 1252-242,Modalen kommune. Modalen barnehage,Fc,W9-86-1-3,W9-86-1-3
 1252-315,Modalen kommune. Barnevernet,Fa,Q8-34-2-1,Q8-34-2-1
 1252-316,Modalen kommune. Barnevernet,Fb,W9-86-2-1,W9-86-2-1
+1252-505,Modalen kommune. Byggesaksavdelinga,Fa,SAB-125,
+1252-601,Modalen kommune. Landbrukskontoret,Fa,SAB-125,
+1253b-021.1,Osterøy kommune. Servicekontoret,Da,SAB-142,
+1253b-021.1,Osterøy kommune. Servicekontoret,Db,SAB-142,SAB-143
+1253b-021.1,Osterøy kommune. Servicekontoret,Dc,SAB-143,
 1253b-201,Osterøy kommune. Skulekontoret,Ha,Q8-8-2-2,Q8-8-2-2
 1253b-201.1,Osterøy kommune. Osterøy oppvekst og kultur,Ha,Q8-8-2-6,Q8-8-2-7
 1253b-201.1,Osterøy kommune. Osterøy oppvekst og kultur (boks 1-7),Hba,Q8-11-1-5,Q8-11-1-5
@@ -923,6 +986,12 @@
 1253b-315.1,Osterøy kommune. Barneverntenesta,Fcd,Q8-11-1-5,Q8-11-1-5
 1253b-315.1,Osterøy kommune. Barneverntenesta,Fce,Q8-11-1-5,Q8-11-1-5
 1253b-315.1,Osterøy kommune. Barneverntenesta,Fcf,Q8-11-2-4,Q8-11-2-5
+1253b-505,Osterøy kommune. Byggesaksavdelinga,Fa,SAB-121,SAB-122
+1253b-506,Osterøy kommune. Oppmålingsavdelinga,Fa,SAB-122,
+1253b-506,Osterøy kommune. Oppmålingsavdelinga,Ga,SAB-122,
+1253b-506,Osterøy kommune. Oppmålingsavdelinga,Ha,SAB-122,
+1253b-601,Osterøy kommune. Landbrukskontoret,Fa,SAB-122,
+1253b-601,Osterøy kommune. Landbrukskontoret,Ga,SAB-122,
 1256-201,Meland Kommune. Kultur og oppvekst/ Grasdal skule,Fc,U2-32-1-6,U2-32-1-7
 1256-201,Meland kommune. Skulekontoret,Ha,IKKJE FUNNET,
 1256-201,Meland kommune. Skulekontoret,Hb,U2-31-2-6,U2-31-2-6
@@ -959,6 +1028,10 @@
 1256-242.06,Meland kommune. Barnehagar,Fd,U2-33-2-5,U2-33-2-5
 1256-242.06,Meland kommune. Barnehagar,Fe,IKKJE FUNNET,
 1256-267,Meland Voksenopplæring,Ha,U2-33-2-2,U2-33-2-2
+1256-302,Meland kommune. NAV,Fa,SAB-126,SAB-127
+1256-302,Meland kommune. NAV,Fb,SAB-127,
+1256-302,Meland kommune. NAV,Fc,SAB-127,
+1256-302,Meland kommune. NAV,Fd,SAB-127,
 1256-315,Meland barnevern,Fa,U2-32-2-3,U2-32-2-4
 1256-315.01,Meland kommune. Nordhordland interkommunale barnevern,Fa,U2-32-2-4,U2-32-2-4
 1256-315.02,Meland kommune. Barneverntenesta,Fa,U2-34-2-4,U2-34-3-2
@@ -976,6 +1049,10 @@
 1256-315.02,Meland kommune. Barneverntenesta,Fh,U2-31-3-4,U2-31-3-5
 1256-315.02,Meland kommune. Barneverntenesta,Fi,IKKJE FUNNET,
 1256-315.02,Meland kommune. Barneverntenesta,Fj,IKKJE FUNNET,
+1256-505,Meland kommune. Byggesaksavdelinga,Fa,SAB-116,SAB-117
+1256-506,Meland kommune. Oppmålingsavdelinga,Fa,SAB-117,SAB-118
+1256-506,Meland kommune. Oppmålingsavdelinga,Ga,SAB-118,
+1256-601,Meland kommune. Landbrukskontoret,Fa,SAB-118,
 1259b-201,Øygarden kommune. Skulekontoret,Ha,Vogn 9,
 1259b-201,Øygarden kommune. Skulekontoret,Hb,Vogn 9,
 1259b-201,Øygarden kommune. Skulekontoret,Hc,Vogn 9,
@@ -995,6 +1072,9 @@
 1259b-315,Øygarden kommune. Barnevernet,Fc,Vogn 15,
 1259b-315,Øygarden kommune. Barnevernet,Fd,Vogn 15,
 1259b-315,Øygarden kommune. Barnevernet,Fe,Vogn 15,
+1260b-021.1,Radøy kommune. Kultur- og sørvistorget,Da,SAB-138,
+1260b-021.1,Radøy kommune. Kultur- og sørvistorget,Db,SAB-138,
+1260b-021.1,Radøy kommune. Kultur- og sørvistorget,Dc,SAB-138,
 1260b-201,Radøy kommune. Skulekontoret,Ha,U2-19-3-5,U2-19-3-5
 1260b-201,Radøy kommune. Skulekontoret,Hb,U2-19-3-7,U2-19-3-7
 1260b-201,Radøy kommune. Skulekontoret,HC,U2-19-3-8,U2-20-1-1
@@ -1011,11 +1091,27 @@
 1260b-242.01,Radøy kommune. Prestmarka barnehage,Fa,U2-20-1-1,U2-20-1-1
 1260b-242.02,Radøy kommune. Sæbø og Dale barnehage,Fa,U2-19-3-5,U2-19-3-5
 1260b-242.03,Radøy kommune. Barnehagane i Radøy (barn og elev),Fa,Q8-43-1-6,Q8-43-1-8
+1260b-302,Radøy kommune. Radøy NAV,Fa,SAB-131,
+1260b-302,Radøy kommune. Radøy NAV,Fb,SAB-131,
+1260b-302,Radøy kommune. Radøy NAV,Fc,SAB-131,
 1260b-315.1,Radøy kommune. Barnevernet,Fa,IKKJE FUNNET,
 1260b-315.1,Radøy kommune. Barnevernet,Fb,U2-20-1-3,U2-20-1-4
 1260b-315.1,Radøy kommune. Barnevernet,Fc,U2-19-3-3,U2-19-3-5
 1260b-315.1,Radøy kommune. Barnevernet,Fd,Q7-70-3-3,Q7-71-1-6
 1260b-315.1,Radøy kommune. Barnevernet,Fe,Q7-71-1-6,Q7-71-2-4
+1260b-419,Radøy kommune. Barne-og familietenesta. Psykisk helse og rustenese.,Fe,SAB-131,
+1260b-505,Radøy kommune. Byggesaksavdelinga,Ca,SAB-122,
+1260b-505,Radøy kommune. Byggesaksavdelinga,Fa,SAB-123,
+1260b-506,Radøy kommune. Oppmålingsavdelinga,Ga,SAB-123,
+1260b-506,Radøy kommune. Oppmålingsavdelinga,Ha,SAB-123,SAB-124
+1260b-601,Radøy kommune. Landbrukskontoret,Fa,SAB-124,
+1263-021.1,Lindås kommune. Dokumentsenteret,Da,SAB-138,SAB-139
+1263-127,Lindås kommune. Kemnerkontoret,Ea,SAB-136,
+1263-127,Lindås kommune. Kemnerkontoret,Eb,SAB-136,
+1263-127,Lindås kommune. Kemnerkontoret,Ec,SAB-136,
+1263-127,Lindås kommune. Kemnerkontoret,Fa,SAB-136,
+1263-127,Lindås kommune. Kemnerkontoret,Fb,SAB-136,
+1263-127,Lindås kommune. Kemnerkontoret,Fc,SAB-136,
 1263-201,Lindås kommune. Skulekontoret,Ha,U2-21-3-7,U2-21-3-8
 1263-201,Lindås kommune. Skulekontoret,Hb,U2-22-2-1,U2-22-2-2
 1263-201,Lindås kommune. Skulekontoret,Hc,U2-22-3-3,U2-22-3-3
@@ -1093,11 +1189,31 @@
 1263-242.05,Lindås kommune. Ostereidet barnehage,Fa,U2-25-2-4,U2-25-2-4
 1263-267,Lindås vaksenopplæring,Ha,U2-27-1-3,U2-27-1-4
 1263-267,Lindås vaksenopplæring,Hb,U2-27-3-7,U2-27-3-8
+1263-302,Lindås kommune. NAV Lindås,Fa,SAB-127,SAB-128
+1263-302,Lindås kommune. NAV Lindås,Fb,SAB-128,
+1263-302,Lindås kommune. NAV Lindås,Fc,SAB-128,
+1263-302,Lindås kommune. NAV Lindås,Fd,SAB-128,
+1263-302,Lindås kommune. NAV Lindås,Fe,SAB-128,
+1263-302,Lindås kommune. NAV Lindås,Ff,SAB-128,SAB-129
+1263-302,Lindås kommune. NAV Lindås,Fg,SAB-129,
+1263-302,Lindås kommune. NAV Lindås,Fh,SAB-129,
+1263-302,Lindås kommune. NAV Lindås,Fi,SAB-129,
+1263-302,Lindås kommune. NAV Lindås,Fj,SAB-129,
+1263-302,Lindås kommune. NAV Lindås,Fk,SAB-129,
 1263-315.01,Lindås kommune. Barnevernet,Fa,U2-24-2-1,U2-24-2-3
 1263-315.01,Lindås kommune. Barnevernet,Fb,U2-26-1-4,U2-26-1-8
 1263-315.01,Lindås kommune. Barnevernet,Fca,U2-28-3-6,U2-30-1-5
 1263-315.01,Lindås kommune. Barnevernet,Fcb,U2-30-1-5,U2-30-1-6
 1263-315.01,Lindås kommune. Barnevernet,Fcc,U2-30-1-6,U2-30-1-6
+1263-505,Lindås kommune. Byggesaksavdelinga,Ca,SAB-111,
+1263-505,Lindås kommune. Byggesaksavdelinga,Fa,SAB-108,SAB-110
+1263-505,Lindås kommune. Byggesaksavdelinga,Ga,SAB-110,SAB-111
+1263-506,Lindås kommune. Oppmålingsavdelinga,Ga,SAB-108,
+1263-506,Lindås kommune. Oppmålingsavdelinga,Ia,SAB-107,SAB-108
+1263-601,Lindås kommune. Landbrukskontoret,Fa,SAB-107,
+1264-021.1,Austrheim kommune. Sentralarkivet,Da,SAB-140,
+1264-021.1,Austrheim kommune. Sentralarkivet,Db,SAB-140,
+1264-021.1,Austrheim kommune. Sentralarkivet,Dc,SAB-140,
 1264-201,Austrheim kommune. Skulekontoret,Ha,Q7-7-2-4,Q7-7-2-4
 1264-201,Austrheim kommune. Skulekontoret,Hb,IKKJE FUNNET,
 1264-201,Austrheim kommune. Skulekontoret,Hc,Q7-7-2-4,Q7-7-2-4
@@ -1117,18 +1233,25 @@
 1264-242.01,Austrheim kommune. Kaland barnehage,Fb,Q7-8-1-4,Q7-8-1-4
 1264-242.02,Austrheim kommune. Årås barnehage,Fa,Q7-8-1-4,Q7-8-1-4
 1264-242.02,Austrheim kommune. Årås barnehage,Fb,Q7-8-1-4,Q7-8-1-5
+1264-302,Austrheim kommune. Austrheim NAV,Fa,SAB-135,
+1264-302,Austrheim kommune. Austrheim NAV,Fb,SAB-135,
 1264-315.1,Austrheim kommune. Barnevernet,Fa,Q7-8-1-5,Q7-8-1-5
 1264-315.1,Austrheim kommune. Barnevernet,Fb,Q7-8-1-6,Q7-8-1-6
 1264-315.1,Austrheim kommune. Barnevernet,Fc,Q7-8-1-6,Q7-8-1-6
 1264-315.1,Austrheim kommune. Barnevernet,Fd,Q7-8-1-6,Q7-8-1-6
 1264-315.1,Austrheim kommune. Barnevernet,Fe,Q7-8-1-6,Q7-8-1-6
 1264-315.1,Austrheim kommune. Barnevernet,Ff,Q7-8-1-6,Q7-8-2-5
+1264-505,Austrheim kommune. Byggesaksavdelinga,Fa,SAB-124,SAB-125
+1264-505,Austrheim kommune. Byggesaksavdelinga,Fb,SAB-125,
+1264-506,Austrheim kommune. Oppmålingsavdelinga,Ga,SAB-125,
 1265-231.01,Fedje kommune. Fedje skule,Ha,Q8-20-2-6,Q8-20-2-6
 1265-231.01,Fedje kommune. Fedje skule,Hb,Q8-20-2-6,Q8-20-2-6
 1265-231.01,Fedje kommune. Fedje skule,Hc,Q8-20-2-6,Q8-20-2-6
 1265-231.01,Fedje kommune. Fedje skule,Hd,Q8-20-2-7,Q8-20-2-8
 1265-242,Fedje kommune. Fedje barnehage,Fa,Q8-20-2-6,Q8-20-2-6
 1265-315.1,Fedje kommune. Barnevernet,Fa,Q8-20-2-7,Q8-20-2-7
+1265-505,Fedje kommune. Byggesaksavdelinga,Fa,SAB-125,SAB-126
+1265-506,Fedje kommune. Oppmålingsavdelinga,Ha,SAB-126,
 1266-231.01,Masfjorden kommune. Matre skule,Ha,Q7-9-2-6,Q7-9-2-6
 1266-231.01,Masfjorden kommune. Matre skule,Hb,Q7-9-2-6,Q7-9-2-6
 1266-231.01,Masfjorden kommune. Matre skule,Hc,Q7-9-2-6,Q7-9-2-6
@@ -1149,5 +1272,9 @@
 1266-315,Masfjorden kommune. Barnevernet,Fa,Q7-10-1-6,Q7-10-2-1
 1266-315,Masfjorden kommune. Barnevernet,Fb,Q7-10-2-1,Q7-10-2-2
 1266-315,Masfjorden kommune. Barnevernet,Fc,Ikke lagt i asta/i grønne kasser,
+1266-505,Masfjorden kommune. Byggesaksavdelinga,Fa,SAB-125,
+1266-505,Masfjorden kommune. Byggesaksavdelinga,Fb,SAB-125,
+1266-506,Masfjorden kommune. Oppmålingsavdelinga,Ga,SAB-125,
+1266-601,Masfjorden kommune. Landbrukskontoret,Fa,SAB-125,
 4631-315,Alver kommune. Barnevernet,Fa,U2-28-1-2,U2-28-1-4
 4631-315,Alver kommune. Barnevernet,Fb,U2-28-1-4,U2-28-1-4
