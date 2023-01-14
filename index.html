@@ -9,29 +9,24 @@
   <body>
     <header>
       <button id="english-button">English</button>
+      <button id="print-button" disabled>Print</button>
+      <button id="email-button">Meld feil eller endring</button>
       <h1>Deponika 🤔</h1>
-      <input type="text" id="search" placeholder="1247-231......." />
+      <input type="text" id="search" placeholder="Skriv noko.." />
       <p>
-        Deponika er ein nettapplikasjon som gjer det mogleg for deg å søke etter
-        plassering av arkiv hjå IKA Hordaland. Du kan søke ved å skrive i
-        søkeboksen. Tabellen vert oppdatert samstundes som du skriv.
+        Deponika gjer det mogleg for deg å søke etter plassering av arkiv. Søk
+        ved å skrive i søkeboksen over. Tabellen vert oppdatert når du skriv.
       </p>
+      <p>Klikk på ASTA-ID for å opne på arkivportalen.no.</p>
       <p>
-        Når du klikkar på ei ASTA-ID, opnar nettsida eit nytt nettleservindauge
-        på arkivportalen.no.
+        Klikk på Arkivskaper for å opne på digitalarkivet.no (ps. prøv
+        Hillestveit skule)
       </p>
-      <p>
-        Funnet ein feil, ynskjer å legge til ei opplysing eller eit arkiv?<br /><br /><button
-          id="email-button"
-        >
-          Gje lyd frå deg!
-        </button>
-      </p>
-      <div>
+      <div id="table-wrapper">
         <table id="myTable">
           <thead>
             <tr>
-              <th>ASTA-id</th>
+              <th>ASTA-ID</th>
               <th>Arkivskaper</th>
               <th>Serie</th>
               <th>Plassering frå</th>
@@ -42,56 +37,59 @@
         </table>
       </div>
     </header>
-
     <script>
+      const printButton = document.querySelector("#print-button");
       const searchInput = document.querySelector("#search");
       const tableBody = document.querySelector("#myTable tbody");
 
-      searchInput.addEventListener("input", (event) => {
+      searchInput.addEventListener("input", async (event) => {
         const searchQuery = event.target.value.toLowerCase();
-
-        fetch("data.csv")
-          .then((response) => response.text())
-          .then((data) => {
-            const rows = data.split("\n");
-
-            tableBody.innerHTML = ""; // Clear the table
-
-            rows.forEach((row) => {
-              const cells = row.split(",");
-              // Check if any of the cells contain the search query (case-insensitive)
-              if (
-                cells.some((cell) => cell.toLowerCase().includes(searchQuery))
-              ) {
-                const rowEl = document.createElement("tr");
-
-                cells.forEach((cell) => {
-                  const cellEl = document.createElement("td");
-                  cellEl.textContent = cell;
-                  rowEl.appendChild(cellEl);
-                });
-                tableBody.appendChild(rowEl);
-              }
+        const searchWords = searchQuery.split(" ");
+        printButton.removeAttribute("disabled");
+        const data = await (await fetch("data.csv")).text();
+        const rows = data.split("\n");
+        tableBody.innerHTML = "";
+        rows.forEach((row) => {
+          const cells = row.split(",");
+          if (
+            searchWords.every((word) =>
+              cells.some((cell) => cell.toLowerCase().includes(word))
+            )
+          ) {
+            const rowEl = document.createElement("tr");
+            cells.forEach((cell) => {
+              const cellEl = document.createElement("td");
+              cellEl.textContent = cell;
+              rowEl.appendChild(cellEl);
             });
-          });
+            tableBody.appendChild(rowEl);
+          }
+        });
       });
+
       window.onload = function () {
         const dataRows = document.querySelectorAll("#myTable tr");
         dataRows.forEach((row) => {
           const firstCell = row.querySelector("td:first-child");
           tableBody.addEventListener("click", (event) => {
-            if (event.target.tagName === "TD") {
-              if (event.target.cellIndex === 0) {
-                // assuming ASTA-id is in the first column
-                const cellData = event.target.innerHTML;
-                window.open(
-                  `https://www.arkivportalen.no/search/1?unitType=1000&repository=IKAH&text=${cellData}`
-                );
-              }
+            if (event.target.tagName === "TD" && event.target.cellIndex === 0) {
+              const cellData = event.target.innerHTML;
+              window.open(
+                `https://www.arkivportalen.no/search/1?unitType=1000&repository=IKAH&text=${cellData}`
+              );
             }
           });
         });
       };
+      tableBody.addEventListener("click", (event) => {
+        if (event.target.tagName === "TD" && event.target.cellIndex === 1) {
+          const cellData = event.target.innerHTML;
+          window.open(
+            `https://media.digitalarkivet.no/db/browse?depository%5B%5D=89&start_year=&end_year=&text=${cellData}`
+          );
+        }
+      });
+
       const emailButton = document.querySelector("#email-button");
       emailButton.addEventListener("click", () => {
         const subject = "Feedback for Deponika";
@@ -101,9 +99,18 @@
           "mailto:knut.kjosaas@ikah.no?subject=" + subject + "&body=" + body;
         window.location.href = email;
       });
+
       const englishButton = document.querySelector("#english-button");
       englishButton.addEventListener("click", () => {
         alert("Nei!! \n\nSida får du sjølvsagt berre på nynorsk !! \n\n  ");
+      });
+
+      printButton.addEventListener("click", () => {
+        const table = document.querySelector("#myTable");
+        newWin = window.open("");
+        newWin.document.write(table.outerHTML);
+        newWin.print();
+        newWin.close();
       });
     </script>
   </body>

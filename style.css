@@ -118,8 +118,37 @@ h2 {
   letter-spacing: -0.5px;
 }
 
+
+
+
+@page {
+  size: landscape;
+  }
 @media only screen and (max-width: 767px) {
+  /* Change font-size for smaller screens */
+  body {
+    font-size: 12px;
+  }
+  
+  /* Adjust table width for smaller screens */
   table {
-      width: 100%;
+    width: 100%;
+  }
+  
+  /* Increase button size for mobile devices */
+  button {
+    padding: 15px;
+    font-size: 18px;
+  }
+  
+  /* Adjust search input width and height */
+  #search {
+    width: 90%;
+    height: 40px;
+  }
+  
+  /* Hide print button on mobile devices */
+  #print-button {
+    display: none;
   }
 }
