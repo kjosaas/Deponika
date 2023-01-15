@@ -7,37 +7,35 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header>
-      <button id="english-button">English</button>
-      <button id="print-button" disabled>Print</button>
-      <button id="email-button">Meld feil eller endring</button>
-      <button id="about-button">Versjonslogg</button>
-      <h1>Deponika superintelligence 🤔</h1>
-      <input type="text" id="search" placeholder="Skriv noko..." />
-      <p>
-        Deponika gjer det mogleg for deg å søke etter plassering av arkiv. Søk
-        ved å skrive i søkeboksen over. Tabellen vert oppdatert når du skriv.
-      </p>
-      <p>Klikk på ASTA-ID for å opne på arkivportalen.no.</p>
-      <p>
-        Klikk på Arkivskaper for å opne på digitalarkivet.no (ps. prøv
-        Hillestveit skule)
-      </p>
-      <div id="table-wrapper">
-        <table id="myTable">
-          <thead>
-            <tr>
-              <th>ASTA-ID</th>
-              <th>Arkivskaper</th>
-              <th>Serie</th>
-              <th>Plassering frå</th>
-              <th>Plassering til</th>
-            </tr>
-          </thead>
-          <tbody></tbody>
-        </table>
-      </div>
-    </header>
+    <button id="english-button">English</button>
+    <button id="print-button" disabled>Print</button>
+    <button id="email-button">Meld feil eller endring</button>
+    <button id="about-button">Versjonslogg</button>
+    <h1>Deponika superintelligence 🤔</h1>
+    <input type="text" id="search" placeholder="Skriv noko..." />
+    <p>
+      Deponika gjer det mogleg for deg å søke etter plassering av arkiv. Søk ved
+      å skrive i søkeboksen over. Tabellen vert oppdatert når du skriv.
+    </p>
+    <p>Klikk på ASTA-ID for å opne på arkivportalen.no.</p>
+    <p>
+      Klikk på Arkivskaper for å opne på digitalarkivet.no (ps. prøv Hillestveit
+      skule)
+    </p>
+    <div id="table-wrapper">
+      <table id="myTable">
+        <thead>
+          <tr>
+            <th>ASTA-ID</th>
+            <th>Arkivskaper</th>
+            <th>Serie</th>
+            <th>Plassering frå</th>
+            <th>Plassering til</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
     <script>
       const printButton = document.querySelector("#print-button");
       const searchInput = document.querySelector("#search");
