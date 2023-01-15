@@ -11,8 +11,9 @@
       <button id="english-button">English</button>
       <button id="print-button" disabled>Print</button>
       <button id="email-button">Meld feil eller endring</button>
-      <h1>Deponika 🤔</h1>
-      <input type="text" id="search" placeholder="Skriv noko.." />
+      <button id="about-button">Versjonslogg</button>
+      <h1>Deponika superintelligence 🤔</h1>
+      <input type="text" id="search" placeholder="Skriv noko..." />
       <p>
         Deponika gjer det mogleg for deg å søke etter plassering av arkiv. Søk
         ved å skrive i søkeboksen over. Tabellen vert oppdatert når du skriv.
@@ -112,6 +113,13 @@
         newWin.print();
         newWin.close();
       });
+      document
+        .getElementById("about-button")
+        .addEventListener("click", function () {
+          alert(
+            "15.01.2023: Søk er forbedret. La til digitalarkivet som funksjon. La til funksjon for utskrift.\n\n"
+          );
+        });
     </script>
   </body>
 </html>
