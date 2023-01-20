@@ -62,10 +62,6 @@
           "15.01.2023: Søk er forbedret. La til digitalarkivet som funksjon. La til funksjon for utskrift.\n\n"
         );
       });
-      //kode for å lage popup som viser tekstmelding
-      englishButton.addEventListener("click", () => {
-        alert("Nei!! \n\nSida får du sjølvsagt berre på nynorsk !! \n\n");
-      });
       //kode for å skrive ut bare det fremsøkte innholdet i tabellen
       printButton.addEventListener("click", () => {
         const table = document.querySelector("#myTable");
