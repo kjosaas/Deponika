@@ -1,11 +1,11 @@
 # Deponika
 Deponika is a web application that allows users to search for and view information about placement of archives within IKA Hordaland. The application uses a CSV file containing data about these items and displays it in a table on the website.
 
-The site is available from this link: https://kjosaas.github.io/
+The site is available from this link: http://dep.ikah.no/
 
 The user can search for specific items by typing a query into the search box. The table will be updated in real-time as the user types, showing only rows that contain the search query in any of the columns.
 
-When the user clicks on an ASTA-id in the first column of the table, the application opens a new browser window that performs a search on [Arkivportalen.no](http://www.arkivportalen.no) using the data in that cell.
+When the user clicks on an ASTA-id in the first column of the table, the application opens a search on [Arkivportalen.no](http://www.arkivportalen.no) using the data in that cell. When the user clicks on Arkivskaper, he application opens a search on Digitalarkivet.no
 
 ## Getting Started
 To use this application, you will need to have a web server running to serve the HTML, JavaScript, and CSS files, and also have access to the data.csv file with the data you want to display in the table.
