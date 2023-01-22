@@ -1,35 +1,33 @@
-      const printButton = document.querySelector("#print-button");
-      const searchInput = document.querySelector("#search");
-      const tableBody = document.querySelector("#myTable tbody");
-      const englishButton = document.querySelector("#english-button");
-      const emailButton = document.querySelector("#email-button");
-      const aboutButton = document.querySelector("#about-button");
-      //kode for å gjennomføre søket
-      searchInput.addEventListener("input", async (event) => {
-        const searchQuery = event.target.value.toLowerCase();
-        const searchWords = searchQuery.split(" ");
-        printButton.removeAttribute("disabled");
-        //henter inn riktig datafil
-        const data = await (await fetch("data.csv")).text();
-        const rows = data.split("\n");
-        tableBody.innerHTML = "";
-        rows.forEach((row) => {
-          const cells = row.split(",");
-          if (
-            searchWords.every((word) =>
-              cells.some((cell) => cell.toLowerCase().includes(word))
-            )
-          ) {
-            const rowEl = document.createElement("tr");
-            cells.forEach((cell) => {
-              const cellEl = document.createElement("td");
-              cellEl.textContent = cell;
-              rowEl.appendChild(cellEl);
-            });
-            tableBody.appendChild(rowEl);
-          }
-        });
+const printButton = document.querySelector("#print-button");
+const searchInput = document.querySelector("#search");
+const tableBody = document.querySelector("#myTable tbody");
+const emailButton = document.querySelector("#email-button");
+const aboutButton = document.querySelector("#about-button");
+
+searchInput.addEventListener("input", async (event) => {
+  const searchQuery = event.target.value.toLowerCase();
+  const searchWords = searchQuery.split(" ");
+  printButton.removeAttribute("disabled");
+
+  const data = await (await fetch("data.json")).json();
+  tableBody.innerHTML = "";
+
+  data.forEach((obj) => {
+    if (
+      searchWords.every((word) =>
+        Object.values(obj).some((val) => val.toLowerCase().includes(word))
+      )
+    ) {
+      const rowEl = document.createElement("tr");
+      Object.values(obj).forEach((val) => {
+        const cellEl = document.createElement("td");
+        cellEl.textContent = val;
+        rowEl.appendChild(cellEl);
       });
+      tableBody.appendChild(rowEl);
+    }
+  });
+});
       //kode for å lage kikkbare lenker til arkivportalen og digitalarkivet
       tableBody.addEventListener("click", (event) => {
         if (event.target.tagName === "TD" && event.target.cellIndex === 0) {
