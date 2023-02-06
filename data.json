@@ -4992,16 +4992,16 @@
   },
   {
     "ASTA-id": "1234-510",
-    "Arkivskaper:": "Granvin herad. Hovudutval plan",
-    "Serie:": "teknisk og næring",
-    "Plassering frå:": "Aba",
+    "Arkivskaper:": "Granvin herad. Hovudutval plan; teknisk og næring",
+    "Serie:": "Aba",
+    "Plassering frå:": "W10-94-1-3",
     "Plassering til:": "W10-94-1-3"
   },
   {
     "ASTA-id": "1234-510",
-    "Arkivskaper:": "Granvin herad. Hovudutval plan",
-    "Serie:": "teknisk og næring",
-    "Plassering frå:": "Aaa",
+    "Arkivskaper:": "Granvin herad. Hovudutval plan; teknisk og næring",
+    "Serie:": "Aaa",
+    "Plassering frå:": "W10-94-1-3",
     "Plassering til:": "W10-94-1-3"
   },
   {
@@ -5265,35 +5265,28 @@
   },
   {
     "ASTA-id": "1235-241",
-    "Arkivskaper:": "Voss kommune. Voss PPT eske nr 1-14",
-    "Serie:": "Fa",
-    "Plassering frå:": "Q8-83-2-6",
-    "Plassering til:": "Q8-83-3-1"
-  },
-  {
-    "ASTA-id": "1235-241",
-    "Arkivskaper:": "Voss kommune. Voss PPT eske nr 109-124",
+    "Arkivskaper:": "Voss kommune. Voss PPT eske nr 109-124 (Faa i ASTA)",
     "Serie:": "Fa",
     "Plassering frå:": "Q8-83-3-2",
     "Plassering til:": "Q8-83-3-4"
   },
   {
     "ASTA-id": "1235-241",
-    "Arkivskaper:": "Voss kommune. Voss PPT eske nr 104-108",
+    "Arkivskaper:": "Voss kommune. Voss PPT eske nr 104-108 (Faa i ASTA)",
     "Serie:": "Fa",
     "Plassering frå:": "Q8-83-3-6",
     "Plassering til:": "Q8-83-3-7"
   },
   {
     "ASTA-id": "1235-241",
-    "Arkivskaper:": "Voss kommune. Voss PPT eskenr. 1-91; 100-103",
+    "Arkivskaper:": "Voss kommune. Voss PPT eskenr. 1-91; 100-103 (Faa i ASTA)",
     "Serie:": "Fa",
     "Plassering frå:": "Q8-85-2-2",
     "Plassering til:": "Q8-85-3-6"
   },
   {
     "ASTA-id": "1235-241",
-    "Arkivskaper:": "Voss kommune. Voss PPT eskenr. 92-99",
+    "Arkivskaper:": "Voss kommune. Voss PPT eskenr. 92-99 (Faa i ASTA)",
     "Serie:": "Fa",
     "Plassering frå:": "Q8-86-1-1",
     "Plassering til:": "Q8-86-1-2"
@@ -5302,29 +5295,15 @@
     "ASTA-id": "1235-241",
     "Arkivskaper:": "Voss kommune. Voss PPT",
     "Serie:": "Fab",
-    "Plassering frå:": "IKKJE FUNNE",
-    "Plassering til:": ""
-  },
-  {
-    "ASTA-id": "1235-241",
-    "Arkivskaper:": "Voss kommune. Voss PPT eske nr 1-45",
-    "Serie:": "Fb",
     "Plassering frå:": "Q8-83-3-7",
     "Plassering til:": "Q8-84-1-5"
-  },
-  {
-    "ASTA-id": "1235-241",
-    "Arkivskaper:": "Voss kommune. Voss PPT",
-    "Serie:": "Faa",
-    "Plassering frå:": "IKKJE FUNNE",
-    "Plassering til:": ""
   },
   {
     "ASTA-id": "1235-241.1",
     "Arkivskaper:": "Voss kommune. Voss- Granvin og Ulvik PPT",
     "Serie:": "Fa",
-    "Plassering frå:": "IKKJE FUNNE",
-    "Plassering til:": ""
+    "Plassering frå:": "Q8-83-2-6",
+    "Plassering til:": "Q8-83-3-1"
   },
   {
     "ASTA-id": "1235-242.1",
@@ -7736,16 +7715,16 @@
   },
   {
     "ASTA-id": "1244-510.4",
-    "Arkivskaper:": "Austevoll kommune. Utbygging",
-    "Serie:": "miljø og landbruk",
-    "Plassering frå:": "Ab",
-    "Plassering til:": "W10-10-2-1"
+    "Arkivskaper:": "Austevoll kommune. Utbygging; miljø og landbruk",
+    "Serie:": "Ab",
+    "Plassering frå:": "W10-10-2-1",
+    "Plassering til:": "W10-10-2-2"
   },
   {
     "ASTA-id": "1244-510.4",
-    "Arkivskaper:": "Austevoll kommune. Utbygging",
-    "Serie:": "miljø og landbruk",
-    "Plassering frå:": "Aa",
+    "Arkivskaper:": "Austevoll kommune. Utbygging; miljø og landbruk",
+    "Serie:": "Aa",
+    "Plassering frå:": "W10-10-2-1",
     "Plassering til:": "W10-10-2-1"
   },
   {
@@ -12027,23 +12006,23 @@
   },
   {
     "ASTA-id": "1256-513.2",
-    "Arkivskaper:": "Meland kommune. Komité for kommunalteknikk",
-    "Serie:": "miljø og landbruk",
-    "Plassering frå:": "Aa",
-    "Plassering til:": "Q8-91-2-1"
+    "Arkivskaper:": "Meland kommune. Komité for kommunalteknikk; miljø og landbruk",
+    "Serie:": "Aa",
+    "Plassering frå:": "Q8-91-2-1",
+    "Plassering til:": "Q8-91-2-2"
   },
   {
     "ASTA-id": "1256-513.3",
-    "Arkivskaper:": "Meland kommune. Plan",
-    "Serie:": "utbygging og kommunalteknikk",
-    "Plassering frå:": "Da",
-    "Plassering til:": "Q8-22-2-7"
+    "Arkivskaper:": "Meland kommune. Plan; utbygging og kommunalteknikk",
+    "Serie:": "Da",
+    "Plassering frå:": "Q8-22-2-7",
+    "Plassering til:": "Q8-22-2-8"
   },
   {
     "ASTA-id": "1256-513.3",
-    "Arkivskaper:": "Meland kommune. Plan",
-    "Serie:": "utbygging og kommunalteknikk",
-    "Plassering frå:": "Aa",
+    "Arkivskaper:": "Meland kommune. Plan; utbygging og kommunalteknikk",
+    "Serie:": "Aa",
+    "Plassering frå:": "Q8-90-2-2",
     "Plassering til:": "Q8-90-2-2"
   },
   {
@@ -12055,10 +12034,10 @@
   },
   {
     "ASTA-id": "1256-513.5",
-    "Arkivskaper:": "Meland kommune. Kommunalteknikk",
-    "Serie:": "miljø og landbruk",
-    "Plassering frå:": "Aa",
-    "Plassering til:": "Q8-90-1-5"
+    "Arkivskaper:": "Meland kommune. Kommunalteknikk; miljø og landbruk",
+    "Serie:": "Aa",
+    "Plassering frå:": "Q8-90-1-5",
+    "Plassering til:": "Q8-90-1-6"
   },
   {
     "ASTA-id": "1256-601",
