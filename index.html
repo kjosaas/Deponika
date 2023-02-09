@@ -1,5 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
+  <nav>
+    <ul>
+      <li>
+        <a
+          href="https://media.digitalarkivet.no/db/browse?depository%5B%5D=89&start_year=&end_year=&text="
+          >IKA Hordaland på Digitalarkivet.no</a
+        >
+      </li>
+      <li><a href="https://www.aksess-tidsskrift.no/">AKSESS-tidsskrift</a></li>
+      <li><a href="https://fetch.intop.no/#/?c=1">Fetch Vegsak</a></li>
+      <li><a href="https://svarut.ks.no/">KS SvarUt</a></li>
+      <li><a id="about-button">Versjonslogg</a></li>
+      <li><a id="email-button">Meld feil eller endring</a></li>
+    </ul>
+  </nav>
+  <br />
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -7,24 +23,19 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <button id="about-button">Versjonslogg</button>
-    <button id="print-button" disabled>Print</button>
-    <button id="email-button">Meld feil eller endring</button>
-    <button
-      onclick="window.location.href='https://media.digitalarkivet.no/db/browse?depository%5B%5D=89&start_year=&end_year=&text=';"
-    >
-      IKA Hordaland på Digitalarkivet
-    </button>
-    <a href="https://fetch.intop.no/#/?c=1"><button>Fetch - Vegsak</button></a>
-    <a href="https://svarut.ks.no/"><button>KS SvarUt</button></a>
     <h1>Deponika 🤔</h1>
     <input type="text" id="search" placeholder="Skriv noko..." />
     <p>
       Deponika lar deg å søke etter plassering av arkiv. Søk ved å skrive i
       søkeboksen over. Tabellen vert oppdatert mens du skriv.
     </p>
-    <p>Klikk på ASTA-ID for å opne på arkivportalen.no.</p>
-    <p>Klikk på Arkivskaper for å opne på digitalarkivet.no</p>
+    <p>
+      Klikk på arkivskapernavn for å sjekke digitalarkivet og asta-id for å
+      sjekke arkivportalen.
+    </p>
+    <button id="print-button" disabled>Skriv ut</button>
+    <br />
+    <br />
     <div id="table-wrapper">
       <table id="myTable">
         <thead>
@@ -39,6 +50,18 @@
         <tbody></tbody>
       </table>
     </div>
+    <br />
     <script src="/script.js"></script>
   </body>
+  <footer>
+    <h2>Siste arkivnytt</h2>
+    <br />
+    <iframe
+      width="1200"
+      height="440"
+      src="https://rss.app/embed/v1/carousel/KstVEjbLYce48rzo"
+      frameborder="0"
+    ></iframe
+    ><br />
+  </footer>
 </html>
