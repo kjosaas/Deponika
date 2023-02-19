@@ -57,7 +57,7 @@ searchInput.addEventListener("input", async (event) => {
       //kode for å lage popup som viser logg over siste endringer
       aboutButton.addEventListener("click", () => {
         alert(
-          "15.01.2023: Søk er forbedret. La til digitalarkivet som funksjon. La til funksjon for utskrift.\n\n 01.02.2023: La til Fetch som egen lenke/knapp. La til administrative arkiv + smårydding på siden\n\n 02.02.2023: La til KS SvarUt\n\n 09.02.2023: La til AKSESS + navigasjon øverst."
+          "15.01.2023: Søk er forbedret. La til digitalarkivet som funksjon. La til funksjon for utskrift.\n\n 01.02.2023: La til Fetch som egen lenke/knapp. La til administrative arkiv + smårydding på siden\n\n 02.02.2023: La til KS SvarUt\n\n 09.02.2023: La til AKSESS + navigasjon øverst\n\n 19.02.2023: La til lenke til bevaringsløsningen i Digitalarkivet"
         );
       });
       //kode for å skrive ut bare det fremsøkte innholdet i tabellen
