@@ -7,7 +7,7 @@ The site is available from this link: <http://dep.ikah.no/>
 
 The user can search for specific items by typing a query into the search box. The table will be updated in real-time as the user types, showing only rows that contain the search query in any of the columns.
 
-When the user clicks on an ASTA-id in the first column of the table, the application opens a search on [Arkivportalen.no](http://www.arkivportalen.no/) using the data in that cell. When the user clicks on Arkivskaper, the application opens a search on Digitalarkivet.no
+When the user clicks on an ASTA-id in the first column of the table, the application opens a search on Arkivportalen.no using the data in that cell. When the user clicks on Arkivskaper, the application opens a search on Digitalarkivet.no
 
 ![](https://github.com/kjosaas/Deponika/blob/main/Deponika.jpg)
 
@@ -73,8 +73,7 @@ The `combineAndOpenInNewTab` function takes the value of the input field and com
 License
 -------
 
-This project is licensed under the MIT License - see the [LICENSE](https://chat.openai.com/LICENSE) file for details.
-
+This project is licensed under the MIT License
 
 Future Work
 -----------
