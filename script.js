@@ -1,77 +1,97 @@
-const printButton = document.querySelector("#print-button");
-const searchInput = document.querySelector("#search");
-const tableBody = document.querySelector("#myTable tbody");
-const emailButton = document.querySelector("#email-button");
-const aboutButton = document.querySelector("#about-button");
+const searchInputElement = $("#search");
+const tableBodyElement = $("#myTable tbody");
+const printButtonElement = $("#print-button");
+const emailButtonElement = $("#email-button");
+const aboutButtonElement = $("#about-button");
 
-searchInput.addEventListener("input", async (event) => {
+searchInputElement.on("input", async (event) => {
   const searchQuery = event.target.value.toLowerCase();
   const searchWords = searchQuery.split(" ");
-  printButton.removeAttribute("disabled");
+  printButtonElement.removeAttr("disabled");
 
   const data = await (await fetch("data.json")).json();
-  tableBody.innerHTML = "";
+  tableBodyElement.empty();
 
-  data.forEach((obj) => {
+  $.each(data, (index, obj) => {
     if (
       searchWords.every((word) =>
         Object.values(obj).some((val) => val.toLowerCase().includes(word))
       )
     ) {
-      const rowEl = document.createElement("tr");
-      Object.values(obj).forEach((val) => {
-        const cellEl = document.createElement("td");
-        cellEl.textContent = val;
-        rowEl.appendChild(cellEl);
-      });
-      tableBody.appendChild(rowEl);
+      const rowElement = createRowElement(obj);
+      tableBodyElement.append(rowElement);
     }
   });
 });
-      //kode for å lage kikkbare lenker til arkivportalen og digitalarkivet
-      tableBody.addEventListener("click", (event) => {
-        if (event.target.tagName === "TD" && event.target.cellIndex === 0) {
-          const cellData = event.target.innerHTML;
-          window.open(
-            `https://www.arkivportalen.no/search/1?unitType=1000&repository=IKAH&text=${cellData}`
-          );
-        } else if (
-          event.target.tagName === "TD" &&
-          event.target.cellIndex === 1
-        ) {
-          const cellData = event.target.innerHTML;
-          window.open(
-            `https://media.digitalarkivet.no/db/browse?depository%5B%5D=89&start_year=&end_year=&text=${cellData}`
-          );
-        }
-      });
-      //kode for å aktivere tilbakemeldingsknapp som åpner i mailklient
-      emailButton.addEventListener("click", () => {
-        const subject = "Feedback for Deponika";
-        const body =
-          "Hei, jeg har funnet en feil eller har en opplysning jeg vil legge til i Deponika. Det gjelder ...";
-        const email =
-          "mailto:knut.kjosaas@ikah.no?subject=" + subject + "&body=" + body;
-        window.location.href = email;
-      });
-      //kode for å lage popup som viser logg over siste endringer
-      aboutButton.addEventListener("click", () => {
-        alert(
-          "15.01.2023: Søk er forbedret. La til digitalarkivet som funksjon. La til funksjon for utskrift.\n\n 01.02.2023: La til Fetch som egen lenke/knapp. La til administrative arkiv + smårydding på siden\n\n 02.02.2023: La til KS SvarUt\n\n 09.02.2023: La til AKSESS + navigasjon øverst\n\n 19.02.2023: La til lenke til bevaringsløsningen i Digitalarkivet\n\n 23.02.2023: La til URN-søk"
-        );
-      });
-      //kode for å skrive ut bare det fremsøkte innholdet i tabellen
-      printButton.addEventListener("click", () => {
-        const table = document.querySelector("#myTable");
-        newWin = window.open("");
-        newWin.document.write(table.outerHTML);
-        newWin.print();
-        newWin.close();
-      });
-      // URN-søk fra strekkode
-      function combineAndOpenInNewTab(input) {
-        const combinedLink = 'https://www.arkivportalen.no/entity/' + input;
-        const newTab = window.open(combinedLink, '_blank');
-        newTab.focus();
-      }
-      
+
+function createRowElement(obj) {
+  const rowElement = $("<tr></tr>");
+  Object.values(obj).forEach((val) => {
+    const cellElement = $("<td></td>");
+    cellElement.text(val);
+    rowElement.append(cellElement);
+  });
+  return rowElement;
+}
+
+tableBodyElement.on("click", "td", (event) => {
+  const cellData = event.target.innerHTML;
+  if (event.target.cellIndex === 0) {
+    openInNewTab(`https://www.arkivportalen.no/search/1?unitType=1000&repository=IKAH&text="${cellData}"`);
+  } else if (event.target.cellIndex === 1) {
+    openInNewTab(`https://media.digitalarkivet.no/db/browse?depository%5B%5D=89&start_year=&end_year=&text="+${cellData}+"`);
+  }
+});
+
+emailButtonElement.on("click", () => {
+  const subject = "Feedback for Deponika";
+  const body = "Hei, jeg har funnet en feil eller har en opplysning jeg vil legge til i Deponika. Det gjelder ...";
+  const email = `mailto:knut.kjosaas@ikah.no?subject=${subject}&body=${body}`;
+  openInNewTab(email);
+});
+
+aboutButtonElement.on("click", () => {
+  const changelog = `
+  15.01.2023: Forbedret søk. La til digitalarkivet og funksjon for utskrift
+  01.02.2023: La til Fetch som egen lenke/knapp
+  02.02.2023: La til KS SvarUt
+  09.02.2023: La til AKSESS + navigasjon øverst
+  19.02.2023: La til lenke til bevaringsløsningen i Digitalarkivet
+  23.02.2023: La til URN-søk
+  01.03.2023: La til sortering på kolonnenivå`;
+  alert(changelog);
+});
+
+printButtonElement.on("click", () => {
+  const table = $("#myTable");
+  const newWin = window.open("");
+  newWin.document.write(table.prop("outerHTML"));
+  newWin.print();
+  newWin.close();
+});
+
+function openInNewTab(link) {
+  const newTab = window.open(link, '_blank');
+  newTab.focus();
+}
+$('#myTable thead th').click(function() {
+  const table = $('#myTable');
+  const rows = table.find('tbody tr').get();
+  const index = $(this).index();
+
+  rows.sort(function(a, b) {
+    const aVal = $(a).children('td').eq(index).text().toUpperCase();
+    const bVal = $(b).children('td').eq(index).text().toUpperCase();
+    return aVal.localeCompare(bVal);
+  });
+
+  if ($(this).hasClass('sorted-asc')) {
+    rows.reverse();
+    $(this).removeClass('sorted-asc').addClass('sorted-desc');
+  } else {
+    $(this).removeClass('sorted-desc').addClass('sorted-asc');
+  }
+  $.each(rows, function(index, row) {
+    table.children('tbody').append(row);
+  });
+});
