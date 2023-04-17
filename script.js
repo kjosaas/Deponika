@@ -95,31 +95,3 @@ $('#myTable thead th').click(function() {
     table.children('tbody').append(row);
   });
 });
-function showToast(message) {
-  // Create a toast element
-  const toast = document.createElement('div');
-  toast.classList.add('toast');
-  
-  // Set the message
-  toast.innerText = message;
-
-  // Add the chicken image to the toast
-  const img = document.createElement('img');
-  img.src = 'https://brisbanekids.com.au/wp-content/uploads/2020/03/chick10.jpg'; // Replace with the actual path to your chicken image
-  img.alt = 'A cute chicken';
-  img.classList.add('chicken-img');
-  toast.appendChild(img);
-  
-  // Add the toast to the DOM
-  document.body.appendChild(toast);
-  
-  // Show the toast for 10 seconds
-  setTimeout(() => {
-    document.body.removeChild(toast);
-  }, 5000);
-}
-
-// Show the toast message when the page loads
-window.onload = function() {
-  showToast('Ha en kjempefin påske :)');
-};
