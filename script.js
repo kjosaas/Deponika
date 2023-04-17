@@ -95,3 +95,18 @@ $('#myTable thead th').click(function() {
     table.children('tbody').append(row);
   });
 });
+
+
+function searchURN() {
+  var inputField = document.getElementById("input-field");
+  var inputValue = inputField.value.trim();
+  if (!inputValue) {
+    alert("Please enter a URN code");
+    return;
+  }
+
+  var url =
+    "https://www.arkivportalen.no/entity/" +
+    encodeURIComponent(inputValue);
+  window.open(url, "_blank");
+}
