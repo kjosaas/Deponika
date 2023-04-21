@@ -4041,6 +4041,55 @@
   {
     "ASTA-id": "1231b-231.01",
     "Arkivskaper:": "Ullensvang herad. Hauso skule",
+    "Serie:": "Aa",
+    "Plassering frå:": "Odda-9-5-9",
+    "Plassering til:": ""
+  },
+  {
+    "ASTA-id": "1231b-231.01",
+    "Arkivskaper:": "Ullensvang herad. Hauso skule",
+    "Serie:": "Ac",
+    "Plassering frå:": "Odda-9-5-9",
+    "Plassering til:": ""
+  },
+  {
+    "ASTA-id": "1231b-231.01",
+    "Arkivskaper:": "Ullensvang herad. Hauso skule",
+    "Serie:": "Ba",
+    "Plassering frå:": "Odda-9-5-9",
+    "Plassering til:": ""
+  },
+  {
+    "ASTA-id": "1231b-231.01",
+    "Arkivskaper:": "Ullensvang herad. Hauso skule",
+    "Serie:": "Da",
+    "Plassering frå:": "Odda-9-5-9",
+    "Plassering til:": ""
+  },
+  {
+    "ASTA-id": "1231b-231.01",
+    "Arkivskaper:": "Ullensvang herad. Hauso skule",
+    "Serie:": "Ea",
+    "Plassering frå:": "Odda-9-5-9",
+    "Plassering til:": ""
+  },
+  {
+    "ASTA-id": "1231b-231.01",
+    "Arkivskaper:": "Ullensvang herad. Hauso skule",
+    "Serie:": "Fa",
+    "Plassering frå:": "Odda-9-5-8",
+    "Plassering til:": ""
+  },
+  {
+    "ASTA-id": "1231b-231.01",
+    "Arkivskaper:": "Ullensvang herad. Hauso skule",
+    "Serie:": "Fb",
+    "Plassering frå:": "Odda-9-5-8",
+    "Plassering til:": "Odda-9-5-9"
+  },
+  {
+    "ASTA-id": "1231b-231.01",
+    "Arkivskaper:": "Ullensvang herad. Hauso skule",
     "Serie:": "Ha",
     "Plassering frå:": "Odda-9-1-2",
     "Plassering til:": ""
@@ -4049,7 +4098,14 @@
     "ASTA-id": "1231b-231.01",
     "Arkivskaper:": "Ullensvang herad. Hauso skule",
     "Serie:": "Hb",
-    "Plassering frå:": "Odda-ukjent",
+    "Plassering frå:": "Odda-9-5-6",
+    "Plassering til:": "Odda-9-5-8"
+  },
+  {
+    "ASTA-id": "1231b-231.01",
+    "Arkivskaper:": "Ullensvang herad. Hauso skule",
+    "Serie:": "Pa",
+    "Plassering frå:": "Odda-9-5-9",
     "Plassering til:": ""
   },
   {
@@ -4165,11 +4221,25 @@
     "Plassering til:": ""
   },
   {
+    "ASTA-id": "1231b-231.06",
+    "Arkivskaper:": "Ullensvang herad. Vikebygd skule",
+    "Serie:": "Ba",
+    "Plassering frå:": "Odda-9-4-6",
+    "Plassering til:": ""
+  },
+  {
     "ASTA-id": "1231b-240",
     "Arkivskaper:": "Ullensvang herad. Logopedkontoret",
     "Serie:": "Fa",
     "Plassering frå:": "Odda-9-1-5",
     "Plassering til:": ""
+  },
+  {
+    "ASTA-id": "1231b-240",
+    "Arkivskaper:": "Ullensvang herad. Logopedkontoret",
+    "Serie:": "Fb",
+    "Plassering frå:": "Odda-9-6-1",
+    "Plassering til:": "Odda-9-6-2"
   },
   {
     "ASTA-id": "1231b-242",
@@ -4183,6 +4253,20 @@
     "Arkivskaper:": "Ullensvang herad. Vines barnehage",
     "Serie:": "Fa",
     "Plassering frå:": "Odda-9-1-5",
+    "Plassering til:": ""
+  },
+  {
+    "ASTA-id": "1231b-242.02",
+    "Arkivskaper:": "Ullensvang herad. Utne barnehage",
+    "Serie:": "Ea",
+    "Plassering frå:": "Odda-9-4-1",
+    "Plassering til:": ""
+  },
+  {
+    "ASTA-id": "1231b-242.02",
+    "Arkivskaper:": "Ullensvang herad. Utne barnehage",
+    "Serie:": "Ga",
+    "Plassering frå:": "Odda-9-5-6",
     "Plassering til:": ""
   },
   {
@@ -4209,6 +4293,20 @@
   {
     "ASTA-id": "1231b-242.03",
     "Arkivskaper:": "Ullensvang herad. Sekse barnehage",
+    "Serie:": "Aa",
+    "Plassering frå:": "Odda-9-6-3",
+    "Plassering til:": "Odda-9-6-4"
+  },
+  {
+    "ASTA-id": "1231b-242.03",
+    "Arkivskaper:": "Ullensvang herad. Sekse barnehage",
+    "Serie:": "Ba",
+    "Plassering frå:": "Odda-9-6-4",
+    "Plassering til:": ""
+  },
+  {
+    "ASTA-id": "1231b-242.03",
+    "Arkivskaper:": "Ullensvang herad. Sekse barnehage",
     "Serie:": "Fa",
     "Plassering frå:": "Odda-9-1-5",
     "Plassering til:": ""
@@ -4217,7 +4315,21 @@
     "ASTA-id": "1231b-242.03",
     "Arkivskaper:": "Ullensvang herad. Sekse barnehage",
     "Serie:": "Fb",
-    "Plassering frå:": "Odda-ukjent",
+    "Plassering frå:": "Odda-9-6-2",
+    "Plassering til:": "Odda-9-6-3"
+  },
+  {
+    "ASTA-id": "1231b-242.03",
+    "Arkivskaper:": "Ullensvang herad. Sekse barnehage",
+    "Serie:": "Ga",
+    "Plassering frå:": "Odda-9-6-3",
+    "Plassering til:": ""
+  },
+  {
+    "ASTA-id": "1231b-242.03",
+    "Arkivskaper:": "Ullensvang herad. Sekse barnehage",
+    "Serie:": "Pa",
+    "Plassering frå:": "Odda-9-6-4",
     "Plassering til:": ""
   },
   {
@@ -4232,6 +4344,13 @@
     "Arkivskaper:": "Ullensvang herad. Veisane barnehage",
     "Serie:": "Fa",
     "Plassering frå:": "Odda-9-1-5",
+    "Plassering til:": ""
+  },
+  {
+    "ASTA-id": "1231b-242.04",
+    "Arkivskaper:": "Ullensvang herad. Veisane barnehage",
+    "Serie:": "Fb",
+    "Plassering frå:": "Odda-9-4-9",
     "Plassering til:": ""
   },
   {
@@ -4305,6 +4424,27 @@
     "Plassering til:": ""
   },
   {
+    "ASTA-id": "1231b-327",
+    "Arkivskaper:": "Ullensvang Herad Braato Omsorgsbustad",
+    "Serie:": "Ea",
+    "Plassering frå:": "Odda-9-5-5",
+    "Plassering til:": ""
+  },
+  {
+    "ASTA-id": "1231b-327",
+    "Arkivskaper:": "Ullensvang Herad Braato Omsorgsbustad",
+    "Serie:": "Fa",
+    "Plassering frå:": "Odda-9-5-5",
+    "Plassering til:": ""
+  },
+  {
+    "ASTA-id": "1231b-327",
+    "Arkivskaper:": "Ullensvang Herad Braato Omsorgsbustad",
+    "Serie:": "Fb",
+    "Plassering frå:": "Odda-10-5-5",
+    "Plassering til:": "Odda-10-5-6"
+  },
+  {
     "ASTA-id": "1231b-411.1",
     "Arkivskaper:": "Ullensvang herad. Helseråd/distriktslege/Helsesøster f. 1861-1966",
     "Serie:": "Fa",
@@ -4347,6 +4487,13 @@
     "Plassering til:": "Odda-9-2-1"
   },
   {
+    "ASTA-id": "1231b-415.1",
+    "Arkivskaper:": "Ullensvang herad. Utne legekontor",
+    "Serie:": "Fba",
+    "Plassering frå:": "Odda-9-6-5",
+    "Plassering til:": "Odda-10-1-1"
+  },
+  {
     "ASTA-id": "1231b-415.2",
     "Arkivskaper:": "Ullensvang herad. Lofthus legekontor",
     "Serie:": "Fab",
@@ -4359,6 +4506,20 @@
     "Serie:": "Fac",
     "Plassering frå:": "Odda-9-2-7",
     "Plassering til:": ""
+  },
+  {
+    "ASTA-id": "1231b-415.2",
+    "Arkivskaper:": "Ullensvang herad. Lofthus legekontor",
+    "Serie:": "Fba",
+    "Plassering frå:": "Odda-10-2-4",
+    "Plassering til:": "Odda-10-3-4"
+  },
+  {
+    "ASTA-id": "1231b-415.2",
+    "Arkivskaper:": "Ullensvang herad. Lofthus legekontor",
+    "Serie:": "Fbb",
+    "Plassering frå:": "Odda-10-3-4",
+    "Plassering til:": "Odda-10-4-2"
   },
   {
     "ASTA-id": "1231b-415.2",
@@ -4386,7 +4547,7 @@
     "Arkivskaper:": "Ullensvang herad. Lofthus legekontor",
     "Serie:": "Fc",
     "Plassering frå:": "Odda-10-5-3",
-    "Plassering til:": "Odda-10-5-3"
+    "Plassering til:": "Odda-10-5-5"
   },
   {
     "ASTA-id": "1231b-415.2",
@@ -4398,9 +4559,37 @@
   {
     "ASTA-id": "1231b-417.1",
     "Arkivskaper:": "Ullensvang herad. Ullensvang helsestasjon avd. Utne",
+    "Serie:": "Aa",
+    "Plassering frå:": "Odda-9-5-5",
+    "Plassering til:": ""
+  },
+  {
+    "ASTA-id": "1231b-417.1",
+    "Arkivskaper:": "Ullensvang herad. Ullensvang helsestasjon avd. Utne",
     "Serie:": "Fa",
     "Plassering frå:": "Odda-9-2-7",
     "Plassering til:": "Odda-9-2-8"
+  },
+  {
+    "ASTA-id": "1231b-417.1",
+    "Arkivskaper:": "Ullensvang herad. Ullensvang helsestasjon avd. Utne",
+    "Serie:": "Fb",
+    "Plassering frå:": "Odda-10-5-2",
+    "Plassering til:": "Odda-10-5-4"
+  },
+  {
+    "ASTA-id": "1231b-417.2",
+    "Arkivskaper:": "Ullensvang herad. Ullensvang helsestasjon avd. Kinsarvik",
+    "Serie:": "Aa",
+    "Plassering frå:": "Odda-9-5-5",
+    "Plassering til:": ""
+  },
+  {
+    "ASTA-id": "1231b-417.2",
+    "Arkivskaper:": "Ullensvang herad. Ullensvang helsestasjon avd. Kinsarvik",
+    "Serie:": "Ea",
+    "Plassering frå:": "Odda-9-5-5",
+    "Plassering til:": ""
   },
   {
     "ASTA-id": "1231b-417.2",
@@ -4415,6 +4604,20 @@
     "Serie:": "Fb",
     "Plassering frå:": "Odda-9-3-3",
     "Plassering til:": "Odda-9-3-4"
+  },
+  {
+    "ASTA-id": "1231b-417.2",
+    "Arkivskaper:": "Ullensvang herad. Kinsarvik helsestasjon",
+    "Serie:": "Fc",
+    "Plassering frå:": "Odda-9-5-4",
+    "Plassering til:": ""
+  },
+  {
+    "ASTA-id": "1231b-417.2",
+    "Arkivskaper:": "Ullensvang herad. Kinsarvik helsestasjon",
+    "Serie:": "Fg",
+    "Plassering frå:": "Odda-9-5-5",
+    "Plassering til:": ""
   },
   {
     "ASTA-id": "1231b-419",
@@ -4445,6 +4648,13 @@
     "Plassering til:": ""
   },
   {
+    "ASTA-id": "1231b-421",
+    "Arkivskaper:": "Ullensvang herad. Fysio- og ergoterapitenesta",
+    "Serie:": "Fb",
+    "Plassering frå:": "Odda-10-5-4",
+    "Plassering til:": ""
+  },
+  {
     "ASTA-id": "1231b-442.1",
     "Arkivskaper:": "Ullensvang herad. Utne alders- og sjukeheim",
     "Serie:": "Fa",
@@ -4470,6 +4680,20 @@
     "Arkivskaper:": "Ullensvang herad. Kinsarvik alders- og sjukeheim",
     "Serie:": "Fb",
     "Plassering frå:": "Odda-9-3-7",
+    "Plassering til:": ""
+  },
+  {
+    "ASTA-id": "1231b-442.2",
+    "Arkivskaper:": "Ullensvang herad. Kinsarvik alders- og sjukeheim",
+    "Serie:": "Fca",
+    "Plassering frå:": "Odda-9-5-1",
+    "Plassering til:": "Odda-9-5-2"
+  },
+  {
+    "ASTA-id": "1231b-442.2",
+    "Arkivskaper:": "Ullensvang herad. Kinsarvik alders- og sjukeheim",
+    "Serie:": "Fcb",
+    "Plassering frå:": "Odda-9-5-2",
     "Plassering til:": ""
   },
   {
@@ -14396,7 +14620,7 @@
     "Arkivskaper:": "Masfjorden kommune. Formannskapet",
     "Serie:": "Ad",
     "Plassering frå:": "IKKJE FUNNE",
-    "Plassering til:": "?"
+    "Plassering til:": ""
   },
   {
     "ASTA-id": "1266-021",
