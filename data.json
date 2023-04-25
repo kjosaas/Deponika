@@ -14620,7 +14620,7 @@
     "Arkivskaper:": "Masfjorden kommune. Formannskapet",
     "Serie:": "Ad",
     "Plassering frå:": "IKKJE FUNNE",
-    "Plassering til:": ""
+    "Plassering til:": "?"
   },
   {
     "ASTA-id": "1266-021",
@@ -14852,5 +14852,509 @@
     "Serie:": "Fb",
     "Plassering frå:": "U2-28-1-4",
     "Plassering til:": "U2-28-1-4"
+  },
+  {
+    "ASTA-id": "ikke-tildelt",
+    "Arkivskaper:": "Masfjorden kommune. Helse? (preg-under ord. - mors)",
+    "Serie:": "",
+    "Plassering frå:": "Q7-10-1-1",
+    "Plassering til:": "Q7-10-1-4"
+  },
+  {
+    "ASTA-id": "ikke-tildelt",
+    "Arkivskaper:": "Masfjorden kommune. Sosialkontoret (preg-under ord. - ikke mors)",
+    "Serie:": "",
+    "Plassering frå:": "Q7-12-3-4",
+    "Plassering til:": ""
+  },
+  {
+    "ASTA-id": "ikke-tildelt",
+    "Arkivskaper:": "Masfjorden kommune. Sosialkontoret (preg-under ord. - mors)",
+    "Serie:": "",
+    "Plassering frå:": "Q7-12-3-4",
+    "Plassering til:": ""
+  },
+  {
+    "ASTA-id": "ikke-tildelt",
+    "Arkivskaper:": "Masfjorden kommune. NAV (preg-under ord. - ikke mors)",
+    "Serie:": "",
+    "Plassering frå:": "Q7-12-3-6",
+    "Plassering til:": "Q7-12-3-8"
+  },
+  {
+    "ASTA-id": "ikke-tildelt",
+    "Arkivskaper:": "Masfjorden kommune. Sosialkontoret (preg-under ord. - ikke mors)",
+    "Serie:": "",
+    "Plassering frå:": "Q7-13-1-2",
+    "Plassering til:": "Q7-13-1-3"
+  },
+  {
+    "ASTA-id": "ikke-tildelt",
+    "Arkivskaper:": "Masfjorden kommune. Matre skule (preg-under ord. - ikke mors)",
+    "Serie:": "",
+    "Plassering frå:": "Q7-13-2-8",
+    "Plassering til:": ""
+  },
+  {
+    "ASTA-id": "ikke-tildelt",
+    "Arkivskaper:": "Masfjorden kommune. Nordbugda skule (preg-under ord. - ikke mors)",
+    "Serie:": "",
+    "Plassering frå:": "Q7-13-3-3",
+    "Plassering til:": "Q7-13-3-6"
+  },
+  {
+    "ASTA-id": "ikke-tildelt",
+    "Arkivskaper:": "Masfjorden kommune. Sandnes skule (preg-under ord. - ikke mors)",
+    "Serie:": "",
+    "Plassering frå:": "Q7-14-2-1",
+    "Plassering til:": ""
+  },
+  {
+    "ASTA-id": "ikke-tildelt",
+    "Arkivskaper:": "Masfjorden kommune. Bhg (preg-under ord. - ikke mors)",
+    "Serie:": "",
+    "Plassering frå:": "Q7-14-2-6",
+    "Plassering til:": "Q7-14-2-8"
+  },
+  {
+    "ASTA-id": "ikke-tildelt",
+    "Arkivskaper:": "Ukjent kommune. Helse (preg-under ord. - mors)",
+    "Serie:": "",
+    "Plassering frå:": "Q7-15-1-8",
+    "Plassering til:": "Q7-15-2-2"
+  },
+  {
+    "ASTA-id": "ikke-tildelt",
+    "Arkivskaper:": "Fusa kommune. Helse (preg-under ord. - mors)",
+    "Serie:": "",
+    "Plassering frå:": "Q7-25-1-7",
+    "Plassering til:": "Q7-25-3-4"
+  },
+  {
+    "ASTA-id": "ikke-tildelt",
+    "Arkivskaper:": "Fusa kommune. Lege (preg-under ord. - kanskje mors)",
+    "Serie:": "",
+    "Plassering frå:": "Q7-25-3-4",
+    "Plassering til:": "Q7-25-3-6"
+  },
+  {
+    "ASTA-id": "ikke-tildelt",
+    "Arkivskaper:": "Fusa kommune. BV (preg-under ord. - ikke mors)",
+    "Serie:": "",
+    "Plassering frå:": "Q7-26-3-7",
+    "Plassering til:": "Q7-27-1-2"
+  },
+  {
+    "ASTA-id": "ikke-tildelt",
+    "Arkivskaper:": "Fusa kommune. NAV (preg-under ord. - mors)",
+    "Serie:": "",
+    "Plassering frå:": "Q7-26-3-7",
+    "Plassering til:": ""
+  },
+  {
+    "ASTA-id": "ikke-tildelt",
+    "Arkivskaper:": "Fusa kommune. Skole (preg-under ord. - ikke mors)",
+    "Serie:": "",
+    "Plassering frå:": "Q7-27-1-5",
+    "Plassering til:": ""
+  },
+  {
+    "ASTA-id": "ikke-tildelt",
+    "Arkivskaper:": "Fusa kommune. Skole (preg-under ord. - ikke mors)",
+    "Serie:": "",
+    "Plassering frå:": "Q7-27-2-2",
+    "Plassering til:": ""
+  },
+  {
+    "ASTA-id": "ikke-tildelt",
+    "Arkivskaper:": "Fusa kommune. Tenestekontor (preg-under ord. - ikke mors)",
+    "Serie:": "",
+    "Plassering frå:": "Q7-28-2-8",
+    "Plassering til:": "Q7-28-3-1"
+  },
+  {
+    "ASTA-id": "ikke-tildelt",
+    "Arkivskaper:": "Os kommune. Lysekloster bhg (preg-under ord. - ikke mors)",
+    "Serie:": "",
+    "Plassering frå:": "Q7-35-1-2",
+    "Plassering til:": "Q7-35-1-3"
+  },
+  {
+    "ASTA-id": "ikke-tildelt",
+    "Arkivskaper:": "Os kommune. Helsekort (preg-under ord. - ikke mors)",
+    "Serie:": "",
+    "Plassering frå:": "Q7-37-2-3",
+    "Plassering til:": "Q7-37-2-4"
+  },
+  {
+    "ASTA-id": "ikke-tildelt",
+    "Arkivskaper:": "Os kommune. Helse (preg-under ord. - mors)",
+    "Serie:": "",
+    "Plassering frå:": "Q7-37-3-2",
+    "Plassering til:": "Q7-37-3-3"
+  },
+  {
+    "ASTA-id": "1244-201",
+    "Arkivskaper:": "Austevoll kommune. Skolekontoret (preg-under ord. - ikke mors)",
+    "Serie:": "",
+    "Plassering frå:": "Q7-46-3-4",
+    "Plassering til:": ""
+  },
+  {
+    "ASTA-id": 1244,
+    "Arkivskaper:": "Austevoll kommune. Flyktning (preg-under ord. - ikke mors)",
+    "Serie:": "",
+    "Plassering frå:": "Q7-46-3-7",
+    "Plassering til:": ""
+  },
+  {
+    "ASTA-id": "ikke-tildelt",
+    "Arkivskaper:": "Radøy kommune. BV adopsjon (preg-under ord. - ikke mors)",
+    "Serie:": "",
+    "Plassering frå:": "Q7-70-2-6",
+    "Plassering til:": ""
+  },
+  {
+    "ASTA-id": "ikke-tildelt",
+    "Arkivskaper:": "Radøy kommune. BV fosterhjem (preg-under ord. - ikke mors)",
+    "Serie:": "",
+    "Plassering frå:": "Q7-70-3-4",
+    "Plassering til:": ""
+  },
+  {
+    "ASTA-id": "ikke-tildelt",
+    "Arkivskaper:": "Os kommune. Helsekort (preg-under ord. - ikke mors)",
+    "Serie:": "",
+    "Plassering frå:": "Q7-71-3-2",
+    "Plassering til:": ""
+  },
+  {
+    "ASTA-id": "ikke-tildelt",
+    "Arkivskaper:": "Stord kommune. Lege (preg-under ord. - kanskje mors)",
+    "Serie:": "",
+    "Plassering frå:": "Q7-86-1-1",
+    "Plassering til:": "Q7-86-1-4"
+  },
+  {
+    "ASTA-id": "ikke-tildelt",
+    "Arkivskaper:": "Stord kommune. Personal? (preg-under ord. - ikke mors)",
+    "Serie:": "",
+    "Plassering frå:": "Q7-90-2-3",
+    "Plassering til:": "Q7-90-2-4"
+  },
+  {
+    "ASTA-id": "ikke-tildelt",
+    "Arkivskaper:": "Stord kommune. Personal? (preg-under ord. - ikke mors)",
+    "Serie:": "",
+    "Plassering frå:": "Q7-90-3-1",
+    "Plassering til:": "Q7-91-1-1"
+  },
+  {
+    "ASTA-id": "ikke-tildelt",
+    "Arkivskaper:": "Vaksdal kommune. Daletunet (preg-under ord. - mors)",
+    "Serie:": "",
+    "Plassering frå:": "Q8-12-3-8",
+    "Plassering til:": "Q8-13-1-4"
+  },
+  {
+    "ASTA-id": "ikke-tildelt",
+    "Arkivskaper:": "Vaksdal kommune. Heimetenesta (preg-under ord. - mors)",
+    "Serie:": "",
+    "Plassering frå:": "Q8-13-1-4",
+    "Plassering til:": "Q8-13-2-2"
+  },
+  {
+    "ASTA-id": "ikke-tildelt",
+    "Arkivskaper:": "Vaksdal kommune. Daletunet (preg-under ord. - mors)",
+    "Serie:": "",
+    "Plassering frå:": "Q8-13-2-2",
+    "Plassering til:": "Q8-13-3-4"
+  },
+  {
+    "ASTA-id": "ikke-tildelt",
+    "Arkivskaper:": "Vaksdal kommune. Daletunet (preg-under ord. - mors)",
+    "Serie:": "",
+    "Plassering frå:": "Q8-13-3-4",
+    "Plassering til:": "Q8-13-3-6"
+  },
+  {
+    "ASTA-id": "ikke-tildelt",
+    "Arkivskaper:": "Kvam kommune. PLO (preg-under ord. - mors)",
+    "Serie:": "",
+    "Plassering frå:": "Q8-13-3-6",
+    "Plassering til:": "Q8-14-1-1"
+  },
+  {
+    "ASTA-id": "1263-417",
+    "Arkivskaper:": "Lindås kommune. ? (preg-under ord. - ikke mors)",
+    "Serie:": "",
+    "Plassering frå:": "Q8-16-1-2",
+    "Plassering til:": "Q8-16-1-3"
+  },
+  {
+    "ASTA-id": "ikke-tildelt",
+    "Arkivskaper:": "Fusa kommune. Heimetenesta (preg-under ord. - kanskje mors)",
+    "Serie:": "",
+    "Plassering frå:": "Q8-24-1-5",
+    "Plassering til:": "Q8-24-1-6"
+  },
+  {
+    "ASTA-id": "ikke-tildelt",
+    "Arkivskaper:": "Fusa kommune. Bu og behandlingssenter? (preg-under ord. - kanskje mors)",
+    "Serie:": "",
+    "Plassering frå:": "Q8-24-2-1",
+    "Plassering til:": "Q8-24-3-1"
+  },
+  {
+    "ASTA-id": "ikke-tildelt",
+    "Arkivskaper:": "Fusa kommune. Helse (preg-under ord. - mors)",
+    "Serie:": "",
+    "Plassering frå:": "Q8-24-3-2",
+    "Plassering til:": "Q8-24-3-3"
+  },
+  {
+    "ASTA-id": "ikke-tildelt",
+    "Arkivskaper:": "Meland kommune. Helse (preg-under ord. - mors)",
+    "Serie:": "",
+    "Plassering frå:": "Q8-34-2-7",
+    "Plassering til:": "Q8-34-3-1"
+  },
+  {
+    "ASTA-id": "ikke-tildelt",
+    "Arkivskaper:": "Meland kommune. ? (preg-under ord. - kanskje mors)",
+    "Serie:": "",
+    "Plassering frå:": "Q8-34-3-2",
+    "Plassering til:": "Q8-34-3-4"
+  },
+  {
+    "ASTA-id": "ikke-tildelt",
+    "Arkivskaper:": "Meland kommune. Lege? (preg-under ord. - kanskje mors)",
+    "Serie:": "",
+    "Plassering frå:": "Q8-34-3-5",
+    "Plassering til:": "Q8-34-3-7"
+  },
+  {
+    "ASTA-id": "ikke-tildelt",
+    "Arkivskaper:": "Meland kommune. PLO (preg-under ord. - mors)",
+    "Serie:": "",
+    "Plassering frå:": "Q8-34-3-7",
+    "Plassering til:": "Q8-35-2-3"
+  },
+  {
+    "ASTA-id": "ikke-tildelt",
+    "Arkivskaper:": "Askøy kommune. Sykehjem (preg-under ord. - kanskje mors)",
+    "Serie:": "",
+    "Plassering frå:": "Q8-35-1-7",
+    "Plassering til:": "Q8-35-2-3"
+  },
+  {
+    "ASTA-id": "ikke-tildelt",
+    "Arkivskaper:": "Askøy kommune. Helse og omsorg (preg-under ord. - kanskje mors)",
+    "Serie:": "",
+    "Plassering frå:": "Q8-35-2-3",
+    "Plassering til:": "Q8-35-2-4"
+  },
+  {
+    "ASTA-id": "1247-315.1",
+    "Arkivskaper:": "Askøy kommune. BV (preg-under ord. - ikke mors)",
+    "Serie:": "",
+    "Plassering frå:": "Q8-37-1-3",
+    "Plassering til:": "Q8-37-1-4"
+  },
+  {
+    "ASTA-id": "ikke-tildelt",
+    "Arkivskaper:": "Askøy kommune. Sykehjem (preg-under ord. - kanskje mors)",
+    "Serie:": "",
+    "Plassering frå:": "Q8-37-1-5",
+    "Plassering til:": ""
+  },
+  {
+    "ASTA-id": "ikke-tildelt",
+    "Arkivskaper:": "Radøy kommune. Legesenter (preg-under ord. - mors)",
+    "Serie:": "",
+    "Plassering frå:": "Q8-41-1-1",
+    "Plassering til:": "Q8-41-1-2"
+  },
+  {
+    "ASTA-id": "ikke-tildelt",
+    "Arkivskaper:": "Radøy kommune. Fysio (preg-under ord. - kanskje mors)",
+    "Serie:": "",
+    "Plassering frå:": "Q8-44-2-7",
+    "Plassering til:": ""
+  },
+  {
+    "ASTA-id": "ikke-tildelt",
+    "Arkivskaper:": "Radøy kommune. Velferdssenteret (preg-under ord. - mors)",
+    "Serie:": "",
+    "Plassering frå:": "Q8-44-3-2",
+    "Plassering til:": "Q8-44-3-6"
+  },
+  {
+    "ASTA-id": "ikke-tildelt",
+    "Arkivskaper:": "Radøy kommune. Velferdssenteret/Hordabøheimen (preg-under ord. - mors)",
+    "Serie:": "",
+    "Plassering frå:": "Q8-45-2-2",
+    "Plassering til:": "Q8-45-2-8"
+  },
+  {
+    "ASTA-id": "ikke-tildelt",
+    "Arkivskaper:": "Vaksdal kommune. Helsestasjon (preg-under ord. - ikke mors)",
+    "Serie:": "",
+    "Plassering frå:": "Q8-51-1-1",
+    "Plassering til:": "Q8-51-1-3"
+  },
+  {
+    "ASTA-id": "ikke-tildelt",
+    "Arkivskaper:": "Vaksdal kommune. Daletunet (preg-under ord. - mors)",
+    "Serie:": "",
+    "Plassering frå:": "Q8-51-1-4",
+    "Plassering til:": "Q8-51-1-6"
+  },
+  {
+    "ASTA-id": "ikke-tildelt",
+    "Arkivskaper:": "Bømlo kommune. Helse og sosial (preg-under ord. - mors)",
+    "Serie:": "",
+    "Plassering frå:": "Q8-56-2-1",
+    "Plassering til:": "Q8-56-3-3"
+  },
+  {
+    "ASTA-id": "1247-242",
+    "Arkivskaper:": "Askøy kommune. Barnehage (preg-under ord. - ikke mors)",
+    "Serie:": "",
+    "Plassering frå:": "Q8-56-3-4",
+    "Plassering til:": ""
+  },
+  {
+    "ASTA-id": "ikke-tildelt",
+    "Arkivskaper:": "Askøy kommune. Helse og omsorg (preg-under ord. - mors)",
+    "Serie:": "",
+    "Plassering frå:": "Q8-56-3-6",
+    "Plassering til:": ""
+  },
+  {
+    "ASTA-id": "ikke-tildelt",
+    "Arkivskaper:": "Askøy kommune. Støttekontakt (preg-under ord. - ikke mors)",
+    "Serie:": "",
+    "Plassering frå:": "Q8-57-2-6",
+    "Plassering til:": ""
+  },
+  {
+    "ASTA-id": "ikke-tildelt",
+    "Arkivskaper:": "Lindås kommune. Bestillerkontoret (preg-under ord. - ikke mors)",
+    "Serie:": "",
+    "Plassering frå:": "Q8-58-1-1",
+    "Plassering til:": "Q8-58-1-4"
+  },
+  {
+    "ASTA-id": "ikke-tildelt",
+    "Arkivskaper:": "Lindås kommune. Helsestasjon knarvik ungdomsskole? (preg-under ord. - ikke mors)",
+    "Serie:": "",
+    "Plassering frå:": "Q8-59-2-6",
+    "Plassering til:": "Q8-60-1-2"
+  },
+  {
+    "ASTA-id": "ikke-tildelt",
+    "Arkivskaper:": "Lindås kommune. Personal (preg-under ord. - ikke mors)",
+    "Serie:": "",
+    "Plassering frå:": "Q8-61-1-1",
+    "Plassering til:": "Q8-61-2-2"
+  },
+  {
+    "ASTA-id": "ikke-tildelt",
+    "Arkivskaper:": "Lindås kommune. PLOMS (preg-under ord. - kanskje mors)",
+    "Serie:": "",
+    "Plassering frå:": "Q8-62-3-4",
+    "Plassering til:": "Q8-63-1-1"
+  },
+  {
+    "ASTA-id": "ikke-tildelt",
+    "Arkivskaper:": "Lindås kommune. PLOMS (preg-under ord. - kanskje mors)",
+    "Serie:": "",
+    "Plassering frå:": "Q8-63-1-5",
+    "Plassering til:": "Q8-63-1-7"
+  },
+  {
+    "ASTA-id": "ikke-tildelt",
+    "Arkivskaper:": "Lindås kommune. Lindås u (preg-under ord. - ikke mors)",
+    "Serie:": "",
+    "Plassering frå:": "Q8-63-2-6",
+    "Plassering til:": "Q8-63-3-5"
+  },
+  {
+    "ASTA-id": "ikke-tildelt",
+    "Arkivskaper:": "Lindås kommune. Ostereidet u (preg-under ord. - ikke mors)",
+    "Serie:": "",
+    "Plassering frå:": "Q8-64-1-1",
+    "Plassering til:": "Q8-64-1-4"
+  },
+  {
+    "ASTA-id": "ikke-tildelt",
+    "Arkivskaper:": "Lindås kommune. Personal (preg-under ord. - ikke mors)",
+    "Serie:": "",
+    "Plassering frå:": "Q8-64-2-5",
+    "Plassering til:": ""
+  },
+  {
+    "ASTA-id": "ikke-tildelt",
+    "Arkivskaper:": "Lindås kommune. Juvik bhg (preg-under ord. - ikke mors)",
+    "Serie:": "",
+    "Plassering frå:": "Q8-64-2-6",
+    "Plassering til:": ""
+  },
+  {
+    "ASTA-id": "ikke-tildelt",
+    "Arkivskaper:": "Lindås kommune. Seim u (preg-under ord. - ikke mors)",
+    "Serie:": "",
+    "Plassering frå:": "Q8-64-3-2",
+    "Plassering til:": "Q8-64-3-3"
+  },
+  {
+    "ASTA-id": "ikke-tildelt",
+    "Arkivskaper:": "Lindås kommune. Kleppestø sykehjem (preg-under ord. - kanskje mors)",
+    "Serie:": "",
+    "Plassering frå:": "Q8-65-1-6",
+    "Plassering til:": "Q8-65-2-2"
+  },
+  {
+    "ASTA-id": "ikke-tildelt",
+    "Arkivskaper:": "Askøy kommune. Helse (preg-under ord. - mors)",
+    "Serie:": "",
+    "Plassering frå:": "Q8-70-1-1",
+    "Plassering til:": "Q8-71-2-1"
+  },
+  {
+    "ASTA-id": "ikke-tildelt",
+    "Arkivskaper:": "Askøy kommune. Flyktning (preg-under ord. - ikke mors)",
+    "Serie:": "",
+    "Plassering frå:": "Q8-71-3-5",
+    "Plassering til:": "Q8-71-3-6"
+  },
+  {
+    "ASTA-id": "ikke-tildelt",
+    "Arkivskaper:": "Askøy kommune. Lege (preg-under ord. - kanskje mors)",
+    "Serie:": "",
+    "Plassering frå:": "Q8-75-3-4",
+    "Plassering til:": "Q8-76-3-3"
+  },
+  {
+    "ASTA-id": "ikke-tildelt",
+    "Arkivskaper:": "Askøy kommune. Helse (preg-under ord. - mors)",
+    "Serie:": "",
+    "Plassering frå:": "Q8-77-1-5",
+    "Plassering til:": "Q8-77-2-1"
+  },
+  {
+    "ASTA-id": "ikke-tildelt",
+    "Arkivskaper:": "Askøy kommune. Flytning (preg-under ord. - ikke mors)",
+    "Serie:": "",
+    "Plassering frå:": "Q8-77-2-3",
+    "Plassering til:": "Q8-77-2-4"
+  },
+  {
+    "ASTA-id": "ikke-tildelt",
+    "Arkivskaper:": "Askøy kommune. Helse (preg-under ord. - mors)",
+    "Serie:": "",
+    "Plassering frå:": "Q8-77-2-4",
+    "Plassering til:": "Q8-77-2-5"
   }
 ]
