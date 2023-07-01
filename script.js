@@ -110,3 +110,56 @@ function searchURN() {
     encodeURIComponent(inputValue);
   window.open(url, "_blank");
 }
+
+// spørsmål-siden (denne gjemmer svarene)
+var faq = document.getElementsByClassName("faq-page");
+var i;
+
+for (i = 0; i < faq.length; i++) {
+  faq[i].addEventListener("click", function () {
+    var answer = this.nextElementSibling;
+    
+    if (answer.style.display === "none" || answer.style.display === "") {
+      answer.style.display = "block";
+    } else {
+      answer.style.display = "none";
+    }
+  });
+}
+// spørsmål-siden (denne henter tilfeldig fakta)
+$(document).ready(function () {
+  var faq = document.getElementsByClassName("faq-page");
+  var i;
+
+  for (i = 0; i < faq.length; i++) {
+    faq[i].addEventListener("click", function () {
+      var answer = this.nextElementSibling;
+
+      if (
+        answer.style.display === "none" ||
+        answer.style.display === ""
+      ) {
+        answer.style.display = "block";
+        if (this.classList.contains("faq-page-fact")) {
+          $.get(
+            "https://uselessfacts.jsph.pl/random.json?language=no",
+            function (data) {
+              $("#fact").html(data.text);
+            }
+          );
+        }
+      } else {
+        answer.style.display = "none";
+      }
+    });
+  }
+});
+
+//vits
+axios.get('https://icanhazdadjoke.com/', { headers: { 'Accept': 'application/json' } })
+    .then((response) => {
+        const joke = response.data.joke;
+        $('#jokeText').text(joke);
+        $('#jokeBubble').css('display', 'block');
+        $('#imageContainer').css('display', 'block');
+    });

@@ -6,6 +6,9 @@
     <title>Hyllesystem</title>
     <link rel="stylesheet" href="style.css" />
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios@0.21.1/dist/axios.min.js"></script>
+    <script src="/script.js"></script>
   </head>
   <body>
     <nav>
@@ -33,38 +36,19 @@
         <li><a href="svar.html">Bare svar</a></li>
       </ul>
     </nav>
-    <h1>Deponika 🤔</h1>
-    <input type="text" id="search" placeholder="Skriv noko..." />
-    <p>
-      Deponika lar deg å søke etter plassering av arkiv. Søk ved å skrive i
-      søkeboksen over. Tabellen vert oppdatert mens du skriv.
-    </p>
-    <p>
-      Klikk på arkivskapernavn for å sjekke digitalarkivet og asta-id for å
-      sjekke arkivportalen.
-    </p>
-    <button id="print-button" disabled>Skriv ut</button>
-    <br />
-    <br />
-    <div id="table-wrapper">
-      <table id="myTable">
-        <thead>
-          <tr>
-            <th>ASTA-ID</th>
-            <th>Arkivskaper</th>
-            <th>Serie</th>
-            <th>Plassering frå</th>
-            <th>Plassering til</th>
-          </tr>
-        </thead>
-        <tbody></tbody>
-      </table>
+    <div id="#joke-page">
+      <div id="center-wrapper">
+        <div id="imageContainer">
+          <img
+            id="image"
+            src="https://pilbox.themuse.com/image.jpg?filter=antialias&h=700&opt=1&pos=top-left&prog=1&q=keep&url=https%3A%2F%2Fcms-assets.themuse.com%2Fmedia%2Flead%2F6637.jpg&w=700"
+            alt="Image"
+          />
+          <div class="bubble" id="jokeBubble">
+            <p id="jokeText"></p>
+          </div>
+        </div>
+      </div>
     </div>
-    <br />
-    <h3>URN-søk</h3>
-    <label for="input-field">Skann strekkode:</label>
-    <input type="text" id="input-field" />
-    <button id="URN-button" onclick="searchURN()">Søk</button>
-    <script src="/script.js"></script>
   </body>
 </html>
