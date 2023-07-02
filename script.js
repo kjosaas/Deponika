@@ -163,3 +163,32 @@ axios.get('https://icanhazdadjoke.com/', { headers: { 'Accept': 'application/jso
         $('#jokeBubble').css('display', 'block');
         $('#imageContainer').css('display', 'block');
     });
+// strekkodegenerator
+function generateBarcodes() {
+  // Get the input field
+  var inputField = document.getElementById("inputField");
+
+  // Split the input field value into an array of text strings
+  var textStrings = inputField.value.split(",");
+
+  // Get the barcode container
+  var barcodeContainer = document.getElementById("barcodeContainer");
+
+  // Clear the barcode container
+  barcodeContainer.innerHTML = "";
+
+  // Generate a barcode for each text string
+  for (var i = 0; i < textStrings.length; i++) {
+    // Create a new SVG element
+    var svg = document.createElementNS(
+      "http://www.w3.org/2000/svg",
+      "svg"
+    );
+
+    // Append the SVG to the barcode container
+    barcodeContainer.appendChild(svg);
+
+    // Generate the barcode
+    JsBarcode(svg, textStrings[i].trim());
+  }
+}
