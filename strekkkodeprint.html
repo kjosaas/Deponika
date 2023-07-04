@@ -50,13 +50,15 @@
     </p>
     <p>
       Du kan lage flere strekkoder samtidig ved å skrive kommaseparert. Det
-      finnes mange måter å lage lister. Spør om hjelp
+      finnes mange måter å lage lister. Spør om hjelp.
     </p>
     <p>Eks: 1243-021-Aa-34, 1243-021-Aa-35, 1243-021-Aa-36</p>
+    <p>Utskrift blir best hvis du velger stående utskrift.</p>
     <input type="text" id="inputField" placeholder="Skriv tekst her.." />
     <br />
     <button onclick="generateBarcodes()">Lag skrekkode</button>
-    <button onclick="window.print()">Skriv ut strekkoder</button>
+    <button onclick="window.print()" disabled>Skriv ut strekkoder</button>
+    <button onclick="printBarcodes()">Skriv ut strekkoder</button>
     <div id="barcodeContainer"></div>
   </body>
 </html>

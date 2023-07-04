@@ -189,6 +189,32 @@ function generateBarcodes() {
     barcodeContainer.appendChild(svg);
 
     // Generate the barcode
-    JsBarcode(svg, textStrings[i].trim());
+    JsBarcode(svg, textStrings[i].trim(), {
+      width: 1.75,
+      height: 60,
+      displayValue: true,
+      textAlign: "center",
+      textPosition: "bottom",
+      textMargin: 5,
+      fontSize: 15,
+      lineColor: "#000000",
+      margin: 10
+    });
   }
 }
+//skriv ut i nytt vindu
+function printBarcodes() {
+  // Get the barcode container
+  var barcodeContainer = document.getElementById("barcodeContainer");
+
+  // Create a new window or tab
+  var printWindow = window.open("", "_blank");
+
+  // Write the barcode container's HTML to the new window or tab
+  printWindow.document.write(barcodeContainer.innerHTML);
+
+  // Print the new window or tab
+  printWindow.print();
+}
+
+
