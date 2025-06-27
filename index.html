@@ -1,25 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="no">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Hyllesystem</title>
+    <title>Deponika – Hyllesystem</title>
     <link rel="stylesheet" href="style.css" />
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script defer src="script.js"></script>
   </head>
   <body>
     <nav>
       <ul>
-        <li><a href="index.html">Deponika 🙃</a></li>
+        <li><a href="index.html">Deponika</a></li>
         <li>
           <a
-            href="https://media.digitalarkivet.no/db/browse?depository%5B%5D=89&start_year=&end_year=&text="
+            href="https://media.digitalarkivet.no/db/browse?depository%5B%5D=89"
             >Digitalarkivet.no 👀</a
           >
         </li>
-        <li>
-          <a href="https://www.aksess-tidsskrift.no/">AKSESS 😍</a>
-        </li>
+        <li><a href="https://www.aksess-tidsskrift.no/">AKSESS 😍</a></li>
         <li><a href="https://noark.digitalarkivet.no/">Søk i Noark 🕵️‍♀️</a></li>
         <li><a href="https://ikahordaland.stiftelsen-asta.no/">ASTA ❤️</a></li>
         <li><a href="https://svarut.ks.no/">KS SvarUt 🙈</a></li>
@@ -27,44 +26,47 @@
           <a href="https://nye.mottak.digitalarkivet.no/">Digitalt mottak 🔥</a>
         </li>
         <li>
-          <a href=" http://bevaring.digitalarkivet.no/"
+          <a href="http://bevaring.digitalarkivet.no/"
             >Digitalt sikringsmagasin 🌍</a
           >
         </li>
       </ul>
     </nav>
-    <h1>Deponika 🤔</h1>
-    <input type="text" id="search" placeholder="Skriv noko..." />
-    <p>
-      Deponika lar deg å søke etter plassering av arkiv. Søk ved å skrive i
-      søkeboksen over. Tabellen vert oppdatert mens du skriv.
-    </p>
-    <p>
-      Klikk på arkivskapernavn for å sjekke digitalarkivet og asta-id for å
-      sjekke arkivportalen.
-    </p>
-    <button id="print-button" disabled>Skriv ut</button>
-    <br />
-    <br />
-    <div id="table-wrapper">
-      <table id="myTable">
-        <thead>
-          <tr>
-            <th>ASTA-ID</th>
-            <th>Arkivskaper</th>
-            <th>Serie</th>
-            <th>Plassering frå</th>
-            <th>Plassering til</th>
-          </tr>
-        </thead>
-        <tbody></tbody>
-      </table>
-    </div>
-    <br />
-    <h3>URN-søk</h3>
-    <label for="input-field">Skann strekkode:</label>
-    <input type="text" id="input-field" />
-    <button id="URN-button" onclick="searchURN()">Søk</button>
-    <script src="/script.js"></script>
+
+    <main>
+      <div class="content-centered">
+        <h1>Deponika 🤔</h1>
+      </div>
+
+      <div class="sticky-search-wrapper">
+        <input type="text" id="search" placeholder="Skriv noko..." />
+      </div>
+
+      <div class="content-centered">
+        <p>
+          Deponika lar deg søke etter plassering av arkiv. Tabellen blir
+          oppdatert mens du skriver.
+        </p>
+        <p>
+          Klikk på arkivskapernavn for å sjekke Digitalarkivet, og på ASTA-ID
+          for å sjekke Arkivportalen.
+        </p>
+
+        <div id="table-wrapper">
+          <table id="myTable">
+            <thead>
+              <tr>
+                <th>ASTA-ID</th>
+                <th>Arkivskaper</th>
+                <th>Serie</th>
+                <th>Plassering frå</th>
+                <th>Plassering til</th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </div>
+    </main>
   </body>
 </html>

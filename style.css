@@ -1,51 +1,93 @@
-
-nav {
-  border-radius: 4px;
-  display: block;
-  margin: 0;
-  padding: 0;
-  position: fixed;
-  left: 0;
-  right: 0;
+/* === Grunnoppsett === */
+body {
+  background-color: #f5f5f5;
+  font-family: system-ui, sans-serif;
+  font-size: 14px;
+  padding: 110px 20px 40px;
+  overflow-x: hidden;
 }
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
+
+/* === Navigasjon === */
+nav {
   position: fixed;
   top: 0;
-  width: 100%;
+  left: 0;
+  right: 0;
+  background-color: #333;
+  z-index: 1000;
+}
+ul {
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1400px;
 }
 li {
-  float: left;
-  display: inline;
+  margin: 0 4px;
 }
-
 li a {
   display: block;
-  color: white;
-  text-align: center;
   padding: 14px 16px;
+  color: white;
   text-decoration: none;
+  text-align: center;
 }
-
-/* Change the link color to #111 (black) on hover */
 li a:hover {
   background-color: #111;
 }
-table {
-  border-collapse:collapse;
-  width: 100%;
-  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
-}
-#myTable {
-  width: auto;
-  min-width: 80%;
 
+/* === Sentrert innhold === */
+.content-centered {
+  max-width: 1400px;
+  margin: 0 auto;
+  text-align: center;
 }
-th, td {
+.content-centered table {
+  width: 100%;
+  margin-top: 20px;
+}
+.content-centered p {
+  max-width: 700px;
+  margin: 0 auto 10px;
+}
+
+/* === Sticky søkefelt === */
+.sticky-search-wrapper {
+  position: sticky;
+  top: 48px;
+  background-color: #f5f5f5;
+  z-index: 999;
+  padding: 10px 0;
+}
+#search {
+  width: 100%;
+  max-width: 600px;
+  height: 40px;
+  font-size: 16px;
+  border: 1px solid gray;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
+  display: block;
+}
+
+/* === Tabell === */
+#table-wrapper {
+  overflow-x: auto;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+  min-width: 1400px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+th,
+td {
   text-align: left;
   padding: 10px;
   font-size: 1em;
@@ -54,254 +96,50 @@ th {
   background-color: #1aaa9a;
   color: white;
   font-weight: 600;
-  font-size: 1.2em;
 }
 td {
   background-color: #f2f2f2;
 }
-tr:nth-child(even) {
+tr:nth-child(even) td {
   background-color: #f2f2f2;
 }
 tr:hover td {
   background-color: #08a4947b !important;
 }
-#search {
-  width: 80%;
-  height: 30px;
-  font-size: 17px;
-  margin-bottom: 15px;
-  border: 1px solid gray;
-  padding: 10px;
-  float: left;
-  font-family: 'Open Sans', sans-serif;
-  border-radius: 5px;
-  background-color: white;
-  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
-}
 
-#search:hover {
-  background-color: #e0e0e0;
-}
-#search:focus {
-  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
-  outline: none;
-}
-#URN-button, #input-field, #inputField {
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
-  Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
-  sans-serif;
-padding: 5px;
-font-size: 12px;
-border: 1px solid grey;
-background: white ;
-border-radius: 5px;
-}
-#inputField {
-  width: 700px !important;
-font-size: 15px;
-margin-bottom: 15px;
-
-} 
-
+/* === Knapper (hvis aktuelt senere) === */
 button {
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
-    Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
-    sans-serif;
-  padding: 10px;
+  padding: 10px 16px;
   font-size: 15px;
   border: 1px solid grey;
-  background: white ;
+  background: white;
   border-radius: 5px;
+  cursor: pointer;
 }
 button:hover {
-  background-color: #e0e0e0; 
-}
-body {
-  background-color: #f5f5f5;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 20px;
-  letter-spacing: 0.17px;
-  width: 100%;
-  overflow-x:hidden;
-  padding: 50px;
-  padding-left: 50px;
-  padding-right: 50px;
-}
-header {
-  width: 100%;
-  padding: 50px;
-  padding-left: 50px;
-  padding-right: 50px;
-  margin: 0 auto;
-  overflow-x: auto;
-  display: flex;
-}
-h1 {
-  font-size: 50px;
-  font-weight: 300;
-  line-height: 112px;
-  letter-spacing: -1.5px;
-}
-input, p {
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 20px;
-  letter-spacing: 0.17px;
-  background-color: #f5f5f5;
-}
-p{
-  width: 60%;
-}
-h2 {
-  font-size: 30px;
-  font-weight: 300;
-  line-height: 50px;
-  letter-spacing: -0.5px;
-}
-#fact {
-  font-style: italic;
-    padding: 10px;
-    margin-top: 20px;
-    width: 50%;
+  background-color: #e0e0e0;
 }
 
-@page {
-  size: landscape;
-  }
-@media only screen and (max-width: 767px) {
-  /* Change font-size for smaller screens */
-  body {
-    font-size: 12px;
-  }
-  
-  /* Adjust table width for smaller screens */
-  table {
-    width: 100%;
-  }
-  
-  /* Increase button size for mobile devices */
-  button {
-    padding: 15px;
-    font-size: 18px;
-  }
-  
-  /* Adjust search input width and height */
-  #search {
-    width: 90%;
-    height: 40px;
-  }
-  
-  /* Hide print button on mobile devices */
-  #print-button {
+/* === Mobiltilpasning === */
+@media (max-width: 768px) {
+  nav {
     display: none;
   }
-}
-
- /* spørsmål */
-.faq-heading {
-  border-bottom: #777;
-  padding: 20px 60px;
-}
-
-.faq-container {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-}
-
-.hr-line {
-  width: 60%;
-  margin: auto;
-}
-
-/* Style the buttons that are used to open and close the faq-page body */
-.faq-page {
-  color: #444;
-  cursor: pointer;
-  padding: 30px 20px;
-  width: 60%;
-  border: none;
-  outline: none;
-  transition: 0.4s;
-  margin: auto;
-}
-
-.faq-answer {
-  margin: auto;
-  width: 50%;
-  padding: auto;
-}
-#faq {
-  display: block;
-  margin: 0 auto;
-  max-width: 100%;
-  height: auto;
-}
-
-.active,
-.faq-page:hover {
-  background-color: #08a4947b
-}
-
-/* Style the faq-page panel. Note: hidden by default */
-.faq-answer {
-  padding: 0 18px;
-  background-color: #f5f5f5;
-  display: none;
-  overflow: hidden;
-}
-
-/* Vits */
-#center-wrapper {
-  display: flex;
-  /* flex-direction: column; */
-  align-items: center;
-  justify-content: center;
-  min-height: 100vh; /* Adjust if you want it to be less than full height */
-  width: 100%;
-  /* padding: 50px; */
-}
-
-#image {
-  width: 100%;
-  height: 100%;
-  /* object-fit: cover; */
-  border: 1px solid black;
-  border-radius: 10px;
-}
-
-.bubble {
-  position: absolute;
-  bottom: 20%; /* Adjust to suit */
-  left: 50%; /* Center horizontally */
-  transform: translate(-50%, 0); /* Center horizontally */
-  max-width: 60%;
-  padding: 20px;
-  background: #FFFFFF;
-  border-radius: 10px;
-  border: #d0d0d0 solid 1px;
-  display: none; /* Hidden by default */
-}
-
-.bubble::after {
-  content: "";
-  position: absolute;
-  left: 20px; /* Adjust to suit */
-  bottom: -40px; /* Adjusted */
-  border-width: 20px;
-  border-style: solid;
-  border-color: #FFFFFF transparent transparent #FFFFFF;
-  transform-origin: 0 0;
-  transform: rotate(315deg);
-  box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.1); /* Added a slight shadow */
-}
-
-#jokeText {
-  margin: 0;
-  padding: 10px;
-  font-size: large;
-  background-color: white;
+  h1 {
+    font-size: 1.8rem;
+    line-height: 2.2rem;
+  }
+  #search {
+    top: 0;
+    font-size: 14px;
+    height: 36px;
+  }
+  table {
+    font-size: 13px;
+    min-width: unset;
+  }
+  th,
+  td {
+    padding: 8px;
+  }
 }

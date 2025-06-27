@@ -1,220 +1,53 @@
 const searchInputElement = $("#search");
 const tableBodyElement = $("#myTable tbody");
-const printButtonElement = $("#print-button");
-const emailButtonElement = $("#email-button");
-const aboutButtonElement = $("#about-button");
+const isMobile = window.matchMedia("(max-width: 768px)").matches;
 
 searchInputElement.on("input", async (event) => {
-  const searchQuery = event.target.value.toLowerCase();
-  const searchWords = searchQuery.split(" ");
-  printButtonElement.removeAttr("disabled");
-
-  const data = await (await fetch("data.json")).json();
+  const searchWords = event.target.value.toLowerCase().split(" ");
+  const data = await fetch("data.json").then(res => res.json());
   tableBodyElement.empty();
 
-  $.each(data, (index, obj) => {
-    if (
-      searchWords.every((word) =>
-        Object.values(obj).some((val) => val.toLowerCase().includes(word))
-      )
-    ) {
-      const rowElement = createRowElement(obj);
-      tableBodyElement.append(rowElement);
-    }
+  data.forEach(obj => {
+    const values = Object.values(obj).map(val => val.toLowerCase());
+    const matches = searchWords.every(word => values.some(val => val.includes(word)));
+    if (matches) tableBodyElement.append(createRowElement(obj));
   });
 });
 
 function createRowElement(obj) {
-  const rowElement = $("<tr></tr>");
-  Object.values(obj).forEach((val) => {
-    const cellElement = $("<td></td>");
-    cellElement.text(val);
-    rowElement.append(cellElement);
-  });
-  return rowElement;
+  const row = $("<tr></tr>");
+  Object.values(obj).forEach(val => row.append($("<td></td>").text(val)));
+  return row;
 }
 
 tableBodyElement.on("click", "td", (event) => {
+  if (isMobile) return; // Deaktiver klikkbare lenker på mobil
+
   const cellData = event.target.innerHTML;
   if (event.target.cellIndex === 0) {
     openInNewTab(`https://www.arkivportalen.no/search/1?unitType=1000&repository=IKAH&text=${cellData}`);
   } else if (event.target.cellIndex === 1) {
-    openInNewTab(`https://media.digitalarkivet.no/db/browse?depository%5B%5D=89&start_year=&end_year=&text="+${cellData}+"`);
+    openInNewTab(`https://media.digitalarkivet.no/db/browse?depository%5B%5D=89&start_year=&end_year=&text=${cellData}`);
   }
-});
-
-emailButtonElement.on("click", () => {
-  const subject = "Feedback for Deponika";
-  const body = "Hei, jeg har funnet en feil eller har en opplysning jeg vil legge til i Deponika. Det gjelder ...";
-  const email = `mailto:knut.kjosaas@ikah.no?subject=${subject}&body=${body}`;
-  openInNewTab(email);
-});
-
-aboutButtonElement.on("click", () => {
-  const changelog = `
-  15.01.2023: Forbedret søk. La til digitalarkivet og funksjon for utskrift
-  01.02.2023: La til Fetch som egen lenke/knapp
-  02.02.2023: La til KS SvarUt
-  09.02.2023: La til AKSESS + navigasjon øverst
-  19.02.2023: La til lenke til bevaringsløsningen i Digitalarkivet
-  23.02.2023: La til URN-søk
-  01.03.2023: La til sortering på kolonnenivå`;
-  alert(changelog);
-});
-
-printButtonElement.on("click", () => {
-  const table = $("#myTable");
-  const newWin = window.open("");
-  newWin.document.write(table.prop("outerHTML"));
-  newWin.print();
-  newWin.close();
 });
 
 function openInNewTab(link) {
   const newTab = window.open(link, '_blank');
-  newTab.focus();
+  newTab?.focus();
 }
-$('#myTable thead th').click(function() {
-  const table = $('#myTable');
-  const rows = table.find('tbody tr').get();
+
+$('#myTable thead th').click(function () {
   const index = $(this).index();
+  const asc = !$(this).hasClass('sorted-asc');
 
-  rows.sort(function(a, b) {
-    const aVal = $(a).children('td').eq(index).text().toUpperCase();
-    const bVal = $(b).children('td').eq(index).text().toUpperCase();
-    return aVal.localeCompare(bVal);
+  $('#myTable thead th').removeClass('sorted-asc sorted-desc');
+  $(this).addClass(asc ? 'sorted-asc' : 'sorted-desc');
+
+  const rows = $('#myTable tbody tr').get().sort((a, b) => {
+    const aVal = $(a).children().eq(index).text().toUpperCase();
+    const bVal = $(b).children().eq(index).text().toUpperCase();
+    return asc ? aVal.localeCompare(bVal) : bVal.localeCompare(aVal);
   });
 
-  if ($(this).hasClass('sorted-asc')) {
-    rows.reverse();
-    $(this).removeClass('sorted-asc').addClass('sorted-desc');
-  } else {
-    $(this).removeClass('sorted-desc').addClass('sorted-asc');
-  }
-  $.each(rows, function(index, row) {
-    table.children('tbody').append(row);
-  });
+  $('#myTable tbody').append(rows);
 });
-
-
-function searchURN() {
-  var inputField = document.getElementById("input-field");
-  var inputValue = inputField.value.trim();
-  if (!inputValue) {
-    alert("Please enter a URN code");
-    return;
-  }
-
-  var url =
-    "https://www.arkivportalen.no/entity/" +
-    encodeURIComponent(inputValue);
-  window.open(url, "_blank");
-}
-
-// spørsmål-siden (denne gjemmer svarene)
-var faq = document.getElementsByClassName("faq-page");
-var i;
-
-for (i = 0; i < faq.length; i++) {
-  faq[i].addEventListener("click", function () {
-    var answer = this.nextElementSibling;
-    
-    if (answer.style.display === "none" || answer.style.display === "") {
-      answer.style.display = "block";
-    } else {
-      answer.style.display = "none";
-    }
-  });
-}
-// spørsmål-siden (denne henter tilfeldig fakta)
-$(document).ready(function () {
-  var faq = document.getElementsByClassName("faq-page");
-  var i;
-
-  for (i = 0; i < faq.length; i++) {
-    faq[i].addEventListener("click", function () {
-      var answer = this.nextElementSibling;
-
-      if (
-        answer.style.display === "none" ||
-        answer.style.display === ""
-      ) {
-        answer.style.display = "block";
-        if (this.classList.contains("faq-page-fact")) {
-          $.get(
-            "https://uselessfacts.jsph.pl/random.json?language=no",
-            function (data) {
-              $("#fact").html(data.text);
-            }
-          );
-        }
-      } else {
-        answer.style.display = "none";
-      }
-    });
-  }
-});
-
-//vits
-axios.get('https://icanhazdadjoke.com/', { headers: { 'Accept': 'application/json' } })
-    .then((response) => {
-        const joke = response.data.joke;
-        $('#jokeText').text(joke);
-        $('#jokeBubble').css('display', 'block');
-        $('#imageContainer').css('display', 'block');
-    });
-// strekkodegenerator
-function generateBarcodes() {
-  // Get the input field
-  var inputField = document.getElementById("inputField");
-
-  // Split the input field value into an array of text strings
-  var textStrings = inputField.value.split(",");
-
-  // Get the barcode container
-  var barcodeContainer = document.getElementById("barcodeContainer");
-
-  // Clear the barcode container
-  barcodeContainer.innerHTML = "";
-
-  // Generate a barcode for each text string
-  for (var i = 0; i < textStrings.length; i++) {
-    // Create a new SVG element
-    var svg = document.createElementNS(
-      "http://www.w3.org/2000/svg",
-      "svg"
-    );
-
-    // Append the SVG to the barcode container
-    barcodeContainer.appendChild(svg);
-
-    // Generate the barcode
-    JsBarcode(svg, textStrings[i].trim(), {
-      width: 1.75,
-      height: 60,
-      displayValue: true,
-      textAlign: "center",
-      textPosition: "bottom",
-      textMargin: 5,
-      fontSize: 15,
-      lineColor: "#000000",
-      margin: 10
-    });
-  }
-}
-//skriv ut i nytt vindu
-function printBarcodes() {
-  // Get the barcode container
-  var barcodeContainer = document.getElementById("barcodeContainer");
-
-  // Create a new window or tab
-  var printWindow = window.open("", "_blank");
-
-  // Write the barcode container's HTML to the new window or tab
-  printWindow.document.write(barcodeContainer.innerHTML);
-
-  // Print the new window or tab
-  printWindow.print();
-}
-
-
