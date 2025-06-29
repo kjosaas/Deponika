@@ -91,6 +91,7 @@ td {
   text-align: left;
   padding: 10px;
   font-size: 1em;
+  vertical-align: top;
 }
 th {
   background-color: #1aaa9a;
@@ -113,6 +114,7 @@ tbody td:nth-child(2) {
 .result-item {
   padding: 2px 0;
   border-bottom: 1px solid #ddd;
+  min-height: 1.2em;
 }
 .result-item:last-child {
   border-bottom: none;
