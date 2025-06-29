@@ -1,6 +1,8 @@
 const searchInputElement = $("#search");
 const tableBodyElement = $("#myTable tbody");
-const isMobile = window.matchMedia("(max-width: 768px)").matches;
+function isMobile() {
+  return window.matchMedia("(max-width: 768px)").matches;
+}
 
 searchInputElement.on("input", async (event) => {
   const searchWords = event.target.value.toLowerCase().split(" ");
@@ -21,7 +23,7 @@ function createRowElement(obj) {
 }
 
 tableBodyElement.on("click", "td", (event) => {
-  if (isMobile) return; // Deaktiver klikkbare lenker på mobil
+  if (isMobile()) return; // Deaktiver klikkbare lenker på mobil
 
   const cellData = event.target.innerHTML;
   if (event.target.cellIndex === 0) {
