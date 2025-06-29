@@ -49,17 +49,17 @@ function groupResults(data) {
 
 function createGroupRow(group) {
   const row = $("<tr></tr>");
-  row.append($("<td></td>").text(group.id));
-  row.append($("<td></td>").text(group.arkivskaper));
+  row.append($("<td class='group-id'></td>").text(group.id));
+  row.append($("<td class='group-arkivskaper'></td>").text(group.arkivskaper));
 
   const serieCell = $("<td></td>");
   const fromCell = $("<td></td>");
   const toCell = $("<td></td>");
 
   group.series.forEach(entry => {
-    serieCell.append($("<div></div>").text(entry.serie));
-    fromCell.append($("<div></div>").text(entry.from));
-    toCell.append($("<div></div>").text(entry.to));
+    serieCell.append($("<div class='result-item'></div>").text(entry.serie));
+    fromCell.append($("<div class='result-item'></div>").text(entry.from));
+    toCell.append($("<div class='result-item'></div>").text(entry.to));
   });
 
   row.append(serieCell, fromCell, toCell);
