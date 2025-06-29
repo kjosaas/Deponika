@@ -103,6 +103,20 @@ td {
 td div {
   margin-bottom: 2px;
 }
+tbody tr {
+  border-bottom: 2px solid #ccc;
+}
+tbody td:first-child,
+tbody td:nth-child(2) {
+  font-weight: 600;
+}
+.result-item {
+  padding: 2px 0;
+  border-bottom: 1px solid #ddd;
+}
+.result-item:last-child {
+  border-bottom: none;
+}
 tr:nth-child(even) td {
   background-color: #f2f2f2;
 }
