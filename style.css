@@ -100,6 +100,9 @@ th {
 td {
   background-color: #f2f2f2;
 }
+td div {
+  margin-bottom: 2px;
+}
 tr:nth-child(even) td {
   background-color: #f2f2f2;
 }
