@@ -59,7 +59,9 @@ function createGroupRow(group) {
   group.series.forEach(entry => {
     serieCell.append($("<div class='result-item'></div>").text(entry.serie));
     fromCell.append($("<div class='result-item'></div>").text(entry.from));
-    toCell.append($("<div class='result-item'></div>").text(entry.to));
+
+    const toValue = entry.to || "\u00A0"; // Preserve spacing for empty values
+    toCell.append($("<div class='result-item'></div>").text(toValue));
   });
 
   row.append(serieCell, fromCell, toCell);
