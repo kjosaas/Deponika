@@ -1,34 +1,80 @@
 const searchInputElement = $("#search");
 const tableBodyElement = $("#myTable tbody");
+let cachedData;
+
+async function getData() {
+  if (!cachedData) {
+    cachedData = await fetch("data.json").then(res => res.json());
+  }
+  return cachedData;
+}
 function isMobile() {
   return window.matchMedia("(max-width: 768px)").matches;
 }
 
 searchInputElement.on("input", async (event) => {
-  const searchWords = event.target.value.toLowerCase().split(" ");
-  const data = await fetch("data.json").then(res => res.json());
-  tableBodyElement.empty();
-
-  data.forEach(obj => {
+  const searchWords = event.target.value
+    .toLowerCase()
+    .split(" ")
+    .filter(Boolean);
+  const data = await getData();
+  const filtered = data.filter(obj => {
     const values = Object.values(obj).map(val => val.toLowerCase());
-    const matches = searchWords.every(word => values.some(val => val.includes(word)));
-    if (matches) tableBodyElement.append(createRowElement(obj));
+    return searchWords.every(word => values.some(val => val.includes(word)));
   });
+  tableBodyElement.empty();
+  const groups = groupResults(filtered);
+  groups.forEach(group => tableBodyElement.append(createGroupRow(group)));
 });
 
-function createRowElement(obj) {
+function groupResults(data) {
+  const groups = {};
+  data.forEach(obj => {
+    const key = `${obj["ASTA-id"]}|${obj["Arkivskaper:"]}`;
+    if (!groups[key]) {
+      groups[key] = {
+        id: obj["ASTA-id"],
+        arkivskaper: obj["Arkivskaper:"],
+        series: []
+      };
+    }
+    groups[key].series.push({
+      serie: obj["Serie:"],
+      from: obj["Plassering frå:"],
+      to: obj["Plassering til:"]
+    });
+  });
+  return Object.values(groups);
+}
+
+function createGroupRow(group) {
   const row = $("<tr></tr>");
-  Object.values(obj).forEach(val => row.append($("<td></td>").text(val)));
+  row.append($("<td></td>").text(group.id));
+  row.append($("<td></td>").text(group.arkivskaper));
+
+  const serieCell = $("<td></td>");
+  const fromCell = $("<td></td>");
+  const toCell = $("<td></td>");
+
+  group.series.forEach(entry => {
+    serieCell.append($("<div></div>").text(entry.serie));
+    fromCell.append($("<div></div>").text(entry.from));
+    toCell.append($("<div></div>").text(entry.to));
+  });
+
+  row.append(serieCell, fromCell, toCell);
   return row;
 }
 
 tableBodyElement.on("click", "td", (event) => {
   if (isMobile()) return; // Deaktiver klikkbare lenker på mobil
 
-  const cellData = event.target.innerHTML;
-  if (event.target.cellIndex === 0) {
+  const cell = $(event.target).closest('td')[0];
+  const cellIndex = cell.cellIndex;
+  const cellData = $(cell).text().trim();
+  if (cellIndex === 0) {
     openInNewTab(`https://www.arkivportalen.no/search/1?unitType=1000&repository=IKAH&text=${cellData}`);
-  } else if (event.target.cellIndex === 1) {
+  } else if (cellIndex === 1) {
     openInNewTab(`https://media.digitalarkivet.no/db/browse?depository%5B%5D=89&start_year=&end_year=&text=${cellData}`);
   }
 });
